@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_nether",
+  "features": "miningmod:nether_galena_placed",
+  "step": "underground_ores"
+}

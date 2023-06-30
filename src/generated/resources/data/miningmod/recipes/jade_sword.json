@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "minecraft:stick"
+    },
+    "J": {
+      "item": "miningmod:jade"
+    }
+  },
+  "pattern": [
+    " J ",
+    " J ",
+    " I "
+  ],
+  "result": {
+    "item": "miningmod:jade_sword"
+  }
+}

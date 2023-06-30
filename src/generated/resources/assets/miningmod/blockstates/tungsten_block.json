@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "miningmod:block/tungsten_block"
+    }
+  }
+}

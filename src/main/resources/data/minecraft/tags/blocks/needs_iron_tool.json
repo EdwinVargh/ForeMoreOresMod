@@ -1,0 +1,23 @@
+{
+  "values": [
+    "minecraft:emerald_ore",
+    "minecraft:deepslate_emerald_ore",
+    "minecraft:emerald_block",
+    "minecraft:diamond_ore",
+    "minecraft:deepslate_diamond_ore",
+    "minecraft:diamond_block",
+    "minecraft:gold_block",
+    "minecraft:raw_gold_block",
+    "minecraft:gold_ore",
+    "minecraft:deepslate_gold_ore",
+    "minecraft:redstone_ore",
+    "minecraft:deepslate_redstone_ore",
+    "miningmod:jade_ore",
+    "miningmod:deepslate_jade_ore",
+    "miningmod:jade_block",
+    "miningmod:bauxite_ore",
+    "miningmod:bauxite_block",
+    "miningmod:aluminum_block",
+    "miningmod:chiseled_aluminum_block"
+  ]
+}

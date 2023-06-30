@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "miningmod:tungsten_block",
+    "miningmod:tungsten_ore",
+    "miningmod:deepslate_tungsten_ore"
+  ]
+}
