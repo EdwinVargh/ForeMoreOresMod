@@ -3,14 +3,7 @@ package net.edwin.miningmod.item;
 import net.edwin.miningmod.MiningMod;
 import net.edwin.miningmod.item.custom.BaseballBat;
 import net.edwin.miningmod.item.custom.CannedBread;
-import net.edwin.miningmod.item.custom.SodaDrink;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.tags.ItemTags;
-import net.minecraft.tags.TagKey;
-import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.world.food.Foods;
 import net.minecraft.world.item.*;
-import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -52,7 +45,7 @@ public class ModItems {
     public static final RegistryObject<Item> TUNGSTEN_AXE = ITEMS.register("tungsten_axe",
             () -> new AxeItem(ModTiers.TUNGSTEN,4,0f,new Item.Properties()));
     public static final RegistryObject<Item> BASEBALL_BAT = ITEMS.register("baseball_bat",
-            () -> new BaseballBat(ModTiers.ALUMINUM, 2, 3f, new Item.Properties()));
+            () -> new BaseballBat(ModTiers.ALUMINUM, 1, 3f, new Item.Properties()));
 
     public static final RegistryObject<Item> JADE_HELMET = ITEMS.register("jade_helmet",
             () -> new ArmorItem(ModArmorMaterials.JADE, ArmorItem.Type.HELMET, new Item.Properties()));
@@ -88,7 +81,7 @@ public class ModItems {
     public static final RegistryObject<Item> CANNED_ROTTEN_FLESH = ITEMS.register("canned_rotten_flesh",
             () -> new Item(new Item.Properties().food(ModFoods.CANNED_ROTTEN_FLESH)));
     public static final RegistryObject<Item> SODA = ITEMS.register("soda",
-            () -> new SodaDrink(new Item.Properties().food(ModFoods.SODA)));
+            () -> new Item(new Item.Properties().food(ModFoods.SODA)));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

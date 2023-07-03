@@ -30,7 +30,7 @@ public class BaseballBat extends SwordItem {
     public boolean hurtEnemy(ItemStack pStack, LivingEntity pTarget, LivingEntity pAttacker) {
         double dx = (double)(pAttacker.getLookAngle().x);
         double dz = (double)(pAttacker.getLookAngle().z);
-        pTarget.knockback(15,-dx, -dz);
+        pTarget.knockback(15,-0.75*dx, -0.75*dz);
         return super.hurtEnemy(pStack, pTarget, pAttacker);
     }
 }
