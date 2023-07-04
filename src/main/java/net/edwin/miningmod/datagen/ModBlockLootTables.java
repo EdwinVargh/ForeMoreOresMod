@@ -35,6 +35,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 (block) -> createOreDrop(ModBlocks.GALENA.get(), ModItems.RAW_LEAD.get()));
         add(ModBlocks.DEEPSLATE_GALENA.get(),
                 (block) -> createOreDrop(ModBlocks.DEEPSLATE_GALENA.get(), ModItems.RAW_LEAD.get()));
+        add(ModBlocks.REINFORCED_GLASS.get(),
+                (block) -> createSilkTouchOnlyTable(ModBlocks.REINFORCED_GLASS.get()));
         add(ModBlocks.NETHER_GALENA.get(),
                 (block) -> createOreDrop(ModBlocks.DEEPSLATE_GALENA.get(), ModItems.RAW_LEAD.get()));
         add(ModBlocks.DEEPSLATE_JADE_ORE.get(),

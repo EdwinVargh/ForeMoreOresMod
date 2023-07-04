@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "miningmod:jade_hoe"
-  }
+  },
+  "show_notification": true
 }

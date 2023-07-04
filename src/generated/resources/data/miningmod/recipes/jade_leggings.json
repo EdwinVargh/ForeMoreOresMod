@@ -13,5 +13,6 @@
   ],
   "result": {
     "item": "miningmod:jade_leggings"
-  }
+  },
+  "show_notification": true
 }

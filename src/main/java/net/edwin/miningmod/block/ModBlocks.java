@@ -12,6 +12,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.GlassBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -39,8 +40,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> CHISELED_LEAD_BLOCK = registerBlock("chiseled_lead_block",
             () -> new LeadBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(2f).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> CHISELED_ALUMINUM_BLOCK = registerBlock("chiseled_aluminum_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(5f).requiresCorrectToolForDrops()));
-
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(2f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> REINFORCED_GLASS = registerBlock("reinforced_glass",
+            () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).strength(3f).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> JADE_ORE = registerBlock("jade_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).strength(3f).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> DEEPSLATE_JADE_ORE = registerBlock("deepslate_jade_ore",

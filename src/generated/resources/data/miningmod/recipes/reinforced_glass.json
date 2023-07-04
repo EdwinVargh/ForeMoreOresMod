@@ -1,18 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
   "key": {
-    "#": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "L": {
       "item": "miningmod:lead"
     }
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    " L ",
+    "LGL",
+    " L "
   ],
   "result": {
-    "item": "miningmod:lead_block"
+    "item": "miningmod:reinforced_glass"
   },
   "show_notification": true
 }

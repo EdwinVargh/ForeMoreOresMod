@@ -13,5 +13,6 @@
   ],
   "result": {
     "item": "miningmod:raw_lead_block"
-  }
+  },
+  "show_notification": true
 }

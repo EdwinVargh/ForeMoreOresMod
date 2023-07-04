@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "miningmod:baseball_bat"
-  }
+  },
+  "show_notification": true
 }

@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:chiseled_lead_block_from_lead_stonecutting"
+        "recipe": "miningmod:reinforced_glass"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:chiseled_lead_block_from_lead_stonecutting"
+      "miningmod:reinforced_glass"
     ]
   },
   "sends_telemetry_event": false

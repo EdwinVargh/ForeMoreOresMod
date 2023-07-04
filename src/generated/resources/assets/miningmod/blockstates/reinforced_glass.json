@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "miningmod:block/reinforced_glass"
+    }
+  }
+}

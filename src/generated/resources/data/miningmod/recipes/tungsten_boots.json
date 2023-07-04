@@ -13,5 +13,6 @@
   ],
   "result": {
     "item": "miningmod:tungsten_boots"
-  }
+  },
+  "show_notification": true
 }

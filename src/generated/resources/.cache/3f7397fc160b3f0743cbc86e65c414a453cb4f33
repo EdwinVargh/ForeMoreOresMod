@@ -1,4 +1,4 @@
-// 1.19.3	2023-06-23T16:24:41.474559	Block States: miningmod
+// 1.20	2023-07-04T15:56:20.95959	Block States: miningmod
 ac7b1694a209eaf41ea27a620233861548cb8321 assets/miningmod/blockstates/aluminum_block.json
 3a7035fcd332074ea874d23a97d8115b8a266b4f assets/miningmod/blockstates/bauxite_block.json
 a40d7157bcde0358f44f179c183723daebba3f3a assets/miningmod/blockstates/bauxite_ore.json
@@ -13,6 +13,7 @@ e7f5b308c6128cb1ec89c3aac97b42ddeaafa944 assets/miningmod/blockstates/jade_ore.j
 9c28de58988c3e9bb9c77c19e4eec8aad1b9d854 assets/miningmod/blockstates/lead_block.json
 de8e2e27356b9bb896e1244803824f50f25076ee assets/miningmod/blockstates/nether_galena.json
 40c1dfd1c9dde36b2f7afd7aa1deae8c87666dff assets/miningmod/blockstates/raw_lead_block.json
+98b933d22055f308bef56ce3e1101ca404bc729d assets/miningmod/blockstates/reinforced_glass.json
 f95d8e7a5ea372efd82876f85b09893a4b9c6074 assets/miningmod/blockstates/tungsten_block.json
 ca1a29de0a51993f2b79821f107b1702fd00043b assets/miningmod/blockstates/tungsten_ore.json
 486aabcbc417acf1f522e6a956f0d03cabb4a58b assets/miningmod/models/block/aluminum_block.json
@@ -29,6 +30,7 @@ dcdce5722a0255eaa91ac064ebd7df8c80203371 assets/miningmod/models/block/deepslate
 9b7aa08f485ce94a5adb6153959fabbed7ae32e7 assets/miningmod/models/block/lead_block.json
 131551f5663ad0cdf3014adde494bdee1a15a501 assets/miningmod/models/block/nether_galena.json
 8a039b1463f175423ee1f9495f4c1442f4654b73 assets/miningmod/models/block/raw_lead_block.json
+de5db74db5b3913b5d984d94e250806a6a6eaa79 assets/miningmod/models/block/reinforced_glass.json
 fe061789e2ae2eff3305070242e6b95d36825396 assets/miningmod/models/block/tungsten_block.json
 70914e573312ab9517456299731b0ff58ed9bc07 assets/miningmod/models/block/tungsten_ore.json
 d7ff4fac6f0205b74126c6b73df21797a446cf83 assets/miningmod/models/item/aluminum_block.json
@@ -45,5 +47,6 @@ b97f98f6d654f8d44090e91440ce38a9ec528a90 assets/miningmod/models/item/jade_ore.j
 ae2a62e54253f392a8c554ffeff1eca3859bead0 assets/miningmod/models/item/lead_block.json
 1f12ccefec6ffe80eb39d1724ccb47c4ed07e8f1 assets/miningmod/models/item/nether_galena.json
 65459e05fd79c0b17700035f976a5271a0d99912 assets/miningmod/models/item/raw_lead_block.json
+4b3f35f958ceae148df067c72510a451bc955081 assets/miningmod/models/item/reinforced_glass.json
 e02f5aa52f0ff0f02189acbb5c6b909b0de2a32d assets/miningmod/models/item/tungsten_block.json
 5943043e2ad448fe97492531bac6a3ac23d5e46c assets/miningmod/models/item/tungsten_ore.json

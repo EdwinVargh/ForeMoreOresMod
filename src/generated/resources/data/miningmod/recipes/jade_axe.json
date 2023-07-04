@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "miningmod:jade_axe"
-  }
+  },
+  "show_notification": true
 }

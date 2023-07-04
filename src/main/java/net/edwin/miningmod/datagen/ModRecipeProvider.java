@@ -12,6 +12,7 @@ import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import javax.annotation.Nullable;
@@ -267,6 +268,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("J J")
                 .unlockedBy("has_tungsten", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ModItems.TUNGSTEN.get()).build()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.REINFORCED_GLASS.get())
+                .define('L', ModItems.LEAD.get())
+                .define('G', Blocks.GLASS)
+                .pattern(" L ")
+                .pattern("LGL")
+                .pattern(" L ")
+                .unlockedBy("has_lead", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.LEAD.get()).build()))
                 .save(consumer);
 
     }

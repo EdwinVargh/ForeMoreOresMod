@@ -13,5 +13,6 @@
   ],
   "result": {
     "item": "miningmod:jade_helmet"
-  }
+  },
+  "show_notification": true
 }

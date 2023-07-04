@@ -13,5 +13,6 @@
   ],
   "result": {
     "item": "miningmod:jade_block"
-  }
+  },
+  "show_notification": true
 }

@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "miningmod:tungsten_sword"
-  }
+  },
+  "show_notification": true
 }

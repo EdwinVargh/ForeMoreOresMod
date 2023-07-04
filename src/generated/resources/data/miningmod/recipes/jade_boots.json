@@ -13,5 +13,6 @@
   ],
   "result": {
     "item": "miningmod:jade_boots"
-  }
+  },
+  "show_notification": true
 }

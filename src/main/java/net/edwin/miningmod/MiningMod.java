@@ -3,6 +3,8 @@ package net.edwin.miningmod;
 import com.mojang.logging.LogUtils;
 import net.edwin.miningmod.block.ModBlocks;
 import net.edwin.miningmod.item.ModItems;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -30,6 +32,7 @@ public class MiningMod
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
+        modEventBus.addListener(this::clientSetup);
         MinecraftForge.EVENT_BUS.register(this);
 
         modEventBus.addListener(this::addCreative);
@@ -64,6 +67,7 @@ public class MiningMod
             event.accept(ModItems.TUNGSTEN_SHOVEL);
             event.accept(ModItems.TUNGSTEN_PICKAXE);
             event.accept(ModItems.JADE_SWORD);
+            event.accept(ModItems.BASEBALL_BAT);
             event.accept(ModItems.JADE_HELMET);
             event.accept(ModItems.JADE_CHESTPLATE);
             event.accept(ModItems.JADE_LEGGINGS);
@@ -93,6 +97,7 @@ public class MiningMod
             event.accept(ModItems.LEAD);
             event.accept(ModItems.JADE);
             event.accept(ModItems.TUNGSTEN);
+            event.accept(ModBlocks.REINFORCED_GLASS);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
@@ -104,6 +109,7 @@ public class MiningMod
             event.accept(ModBlocks.TUNGSTEN_BLOCK);
             event.accept(ModBlocks.CHISELED_LEAD_BLOCK);
             event.accept(ModBlocks.CHISELED_ALUMINUM_BLOCK);
+            event.accept(ModBlocks.REINFORCED_GLASS);
         }
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.JADE_AXE);
@@ -126,6 +132,7 @@ public class MiningMod
             event.accept(ModItems.TUNGSTEN_CHESTPLATE);
             event.accept(ModItems.TUNGSTEN_LEGGINGS);
             event.accept(ModItems.TUNGSTEN_BOOTS);
+            event.accept(ModItems.BASEBALL_BAT);
         }
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.CANNED_APPLES);
@@ -146,6 +153,9 @@ public class MiningMod
     {
         // Do something when the server starts
         LOGGER.info("HELLO from server starting");
+    }
+    private void clientSetup(final FMLClientSetupEvent event) {
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.REINFORCED_GLASS.get(), RenderType.cutout());
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent

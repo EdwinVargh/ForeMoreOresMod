@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "miningmod:jade_shovel"
-  }
+  },
+  "show_notification": true
 }
