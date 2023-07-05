@@ -54,7 +54,7 @@ public class ModConfiguredFeatures {
                 ModBlocks.NETHER_GALENA.get().defaultBlockState(), 6));
         register(context, OVERWORLD_JADE_KEY, Feature.ORE, new OreConfiguration(overworldJadeOres, 7));
         register(context, OVERWORLD_BAUXITE_KEY, Feature.ORE, new OreConfiguration(overworldBauxiteOres, 9));
-        register(context, OVERWORLD_TUNGSTEN_KEY, Feature.ORE, new OreConfiguration(overworldBauxiteOres, 7));
+        register(context, OVERWORLD_TUNGSTEN_KEY, Feature.ORE, new OreConfiguration(overworldTungstenOres, 6));
     }
 
 

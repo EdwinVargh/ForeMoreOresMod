@@ -41,7 +41,7 @@ public class ModPlacedFeatures {
         register(context, BAUXITE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_BAUXITE_KEY),
                 ModOrePlacements.commonOrePlacement(6, // veins per chunk
                         HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(64), VerticalAnchor.absolute(100))));
-        register(context, TUNGSTEN_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_BAUXITE_KEY),
+        register(context, TUNGSTEN_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_TUNGSTEN_KEY),
                 ModOrePlacements.commonOrePlacement(6, // veins per chunk
                         HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0), VerticalAnchor.absolute(60))));
     }

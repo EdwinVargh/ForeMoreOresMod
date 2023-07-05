@@ -1,5 +1,5 @@
 {
-  "feature": "miningmod:bauxite_ore",
+  "feature": "miningmod:tungsten_ore",
   "placement": [
     {
       "type": "minecraft:count",
