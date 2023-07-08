@@ -1,11 +1,11 @@
-// 1.20	2023-07-04T15:56:20.974774	Registries
+// 1.20	2023-07-07T19:20:32.317917	Registries
 044724495d60b5d28ce75b1d7cd9476ada4a2d61 data/miningmod/worldgen/configured_feature/bauxite_ore.json
 ca1c29b2bb0ce960bbad196603d7da4af22d8a0c data/miningmod/worldgen/configured_feature/galena.json
 13927497f2ca21c6d20e648b55f6fd3ae47bd0af data/miningmod/worldgen/configured_feature/jade_ore.json
 d8553620f82a4bb93f558971224c496b74c409a3 data/miningmod/worldgen/configured_feature/nether_galena.json
-a012e3af0f5987b4428a330fddc7db032c997aca data/miningmod/worldgen/configured_feature/tungsten_ore.json
+5bc03f35e1cafbba38469f5ae20c3eb23cab1c35 data/miningmod/worldgen/configured_feature/tungsten_ore.json
 9af797a4fa251e706de76be6750fb2c7fcffcd09 data/miningmod/worldgen/placed_feature/bauxite_placed.json
 16807e38520d210bef7182cd7fd8a69b2c4d55a2 data/miningmod/worldgen/placed_feature/galena_placed.json
 94b67bc936543d3bf34432a0630d34b087f8328c data/miningmod/worldgen/placed_feature/jade_placed.json
 f4f66dc492534269a05824b6aaf27dec8a32bea9 data/miningmod/worldgen/placed_feature/nether_galena_placed.json
-98813634d26e8236b719a4460da93de853d4416c data/miningmod/worldgen/placed_feature/tungsten_placed.json
+233e5d4cef19a10efc6c37bcbe9c57022a8d0e8b data/miningmod/worldgen/placed_feature/tungsten_placed.json

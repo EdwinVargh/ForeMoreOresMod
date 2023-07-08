@@ -27,6 +27,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.DEEPSLATE_GALENA);
         blockWithItem(ModBlocks.NETHER_GALENA);
         blockWithItem(ModBlocks.BAUXITE_ORE);
+        blockWithItem(ModBlocks.DEEPSLATE_BAUXITE_ORE);
         blockWithItem(ModBlocks.JADE_ORE);
         blockWithItem(ModBlocks.DEEPSLATE_JADE_ORE);
         blockWithItem(ModBlocks.TUNGSTEN_ORE);

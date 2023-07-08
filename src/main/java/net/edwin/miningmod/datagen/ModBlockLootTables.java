@@ -29,6 +29,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         add(ModBlocks.BAUXITE_ORE.get(),
                 (block) -> createOreDrop(ModBlocks.BAUXITE_ORE.get(), ModItems.BAUXITE.get()));
+        add(ModBlocks.DEEPSLATE_BAUXITE_ORE.get(),
+                (block) -> createOreDrop(ModBlocks.DEEPSLATE_BAUXITE_ORE.get(), ModItems.BAUXITE.get()));
         add(ModBlocks.JADE_ORE.get(),
                 (block) -> createOreDrop(ModBlocks.JADE_ORE.get(), ModItems.JADE.get()));
         add(ModBlocks.GALENA.get(),
