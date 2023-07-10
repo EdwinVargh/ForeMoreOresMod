@@ -1,8 +1,7 @@
-// 1.20	2023-07-07T19:20:32.314093	Loot Tables
+// 1.20	2023-07-10T15:47:47.603338	Loot Tables
 8a84eb18a8c384931f6a5f73129baeb5e3403f16 data/miningmod/loot_tables/blocks/aluminum_block.json
 432e79f594ea8a448a700cad980f3eed9a7b2908 data/miningmod/loot_tables/blocks/bauxite_block.json
 4f1f0d2a85af62659cda55bf2cfdf9ef9a01b9a9 data/miningmod/loot_tables/blocks/bauxite_ore.json
-eda6f2d2891e443f01addb92131d53a9ae34825f data/miningmod/loot_tables/blocks/chiseled_aluminum_block.json
 6946f7fc028d1019dde1091082264ab780ab47cc data/miningmod/loot_tables/blocks/chiseled_lead_block.json
 7d68d8809cf6606268f7445af41a7e9994751521 data/miningmod/loot_tables/blocks/deepslate_bauxite_ore.json
 f1629e7635b0e9eab2fc19347b7b9d6b2038dd63 data/miningmod/loot_tables/blocks/deepslate_galena.json

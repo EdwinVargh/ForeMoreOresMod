@@ -52,9 +52,9 @@ public class ModConfiguredFeatures {
         register(context, OVERWORLD_GALENA_KEY, Feature.ORE, new OreConfiguration(overworldGalena, 6));
         register(context, NETHER_GALENA_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables,
                 ModBlocks.NETHER_GALENA.get().defaultBlockState(), 6));
-        register(context, OVERWORLD_JADE_KEY, Feature.ORE, new OreConfiguration(overworldJadeOres, 7));
-        register(context, OVERWORLD_BAUXITE_KEY, Feature.ORE, new OreConfiguration(overworldBauxiteOres, 9));
-        register(context, OVERWORLD_TUNGSTEN_KEY, Feature.ORE, new OreConfiguration(overworldTungstenOres, 6));
+        register(context, OVERWORLD_JADE_KEY, Feature.ORE, new OreConfiguration(overworldJadeOres, 5));
+        register(context, OVERWORLD_BAUXITE_KEY, Feature.ORE, new OreConfiguration(overworldBauxiteOres, 8));
+        register(context, OVERWORLD_TUNGSTEN_KEY, Feature.ORE, new OreConfiguration(overworldTungstenOres, 5));
     }
 
 

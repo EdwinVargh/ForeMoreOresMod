@@ -34,16 +34,16 @@ public class ModPlacedFeatures {
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-60), VerticalAnchor.absolute(50))));
         register(context, NETHER_GALENA_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.NETHER_GALENA_KEY),
                 ModOrePlacements.commonOrePlacement(6, // veins per chunk
-                        HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(80))));
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(20), VerticalAnchor.absolute(104))));
         register(context, JADE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_JADE_KEY),
-                ModOrePlacements.commonOrePlacement(6, // veins per chunk
-                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0), VerticalAnchor.absolute(80))));
+                ModOrePlacements.commonOrePlacement(5, // veins per chunk
+                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0), VerticalAnchor.absolute(45))));
         register(context, BAUXITE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_BAUXITE_KEY),
                 ModOrePlacements.commonOrePlacement(6, // veins per chunk
                         HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(64), VerticalAnchor.absolute(100))));
         register(context, TUNGSTEN_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_TUNGSTEN_KEY),
-                ModOrePlacements.commonOrePlacement(6, // veins per chunk
-                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0), VerticalAnchor.absolute(60))));
+                ModOrePlacements.commonOrePlacement(4, // veins per chunk
+                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0), VerticalAnchor.absolute(16))));
     }
 
 

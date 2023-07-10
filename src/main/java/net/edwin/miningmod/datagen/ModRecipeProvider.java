@@ -47,8 +47,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 ModBlocks.RAW_LEAD_BLOCK.get());
         nineBlockStorageRecipes(consumer, RecipeCategory.BUILDING_BLOCKS, ModItems.TUNGSTEN.get(), RecipeCategory.MISC,
                 ModBlocks.TUNGSTEN_BLOCK.get());
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModItems.ALUMINUM.get()), RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_ALUMINUM_BLOCK.get(), 2)
-                .unlockedBy(getHasName(ModItems.ALUMINUM.get()), has(ModItems.ALUMINUM.get())).save(consumer, getConversionRecipeName(ModBlocks.CHISELED_ALUMINUM_BLOCK.get(), ModItems.ALUMINUM.get()) + "_stonecutting");
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModItems.LEAD.get()), RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_LEAD_BLOCK.get(), 2)
                 .unlockedBy(getHasName(ModItems.LEAD.get()), has(ModItems.LEAD.get())).save(consumer, getConversionRecipeName(ModBlocks.CHISELED_LEAD_BLOCK.get(), ModItems.LEAD.get()) + "_stonecutting");
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.SODA.get())

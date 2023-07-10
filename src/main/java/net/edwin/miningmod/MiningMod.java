@@ -58,6 +58,7 @@ public class MiningMod
             event.accept(ModBlocks.TUNGSTEN_ORE);
             event.accept(ModBlocks.DEEPSLATE_TUNGSTEN_ORE);
             event.accept(ModBlocks.BAUXITE_ORE);
+            event.accept(ModBlocks.DEEPSLATE_BAUXITE_ORE);
             event.accept(ModItems.JADE_AXE);
             event.accept(ModItems.JADE_HOE);
             event.accept(ModItems.JADE_SHOVEL);
@@ -78,7 +79,6 @@ public class MiningMod
             event.accept(ModItems.TUNGSTEN_LEGGINGS);
             event.accept(ModItems.TUNGSTEN_BOOTS);
             event.accept(ModBlocks.CHISELED_LEAD_BLOCK);
-            event.accept(ModBlocks.CHISELED_ALUMINUM_BLOCK);
             event.accept(ModItems.CANNED_APPLES);
             event.accept(ModItems.CANNED_BEEF);
             event.accept(ModItems.CANNED_BREAD);
@@ -108,7 +108,6 @@ public class MiningMod
             event.accept(ModBlocks.RAW_LEAD_BLOCK);
             event.accept(ModBlocks.TUNGSTEN_BLOCK);
             event.accept(ModBlocks.CHISELED_LEAD_BLOCK);
-            event.accept(ModBlocks.CHISELED_ALUMINUM_BLOCK);
             event.accept(ModBlocks.REINFORCED_GLASS);
         }
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "miningmod:aluminum_block"
-  },
-  "result": "miningmod:chiseled_aluminum_block"
-}

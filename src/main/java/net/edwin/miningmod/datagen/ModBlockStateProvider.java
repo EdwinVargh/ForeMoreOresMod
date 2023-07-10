@@ -22,7 +22,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.RAW_LEAD_BLOCK);
         blockWithItem(ModBlocks.LEAD_BLOCK);
         blockWithItem(ModBlocks.CHISELED_LEAD_BLOCK);
-        blockWithItem(ModBlocks.CHISELED_ALUMINUM_BLOCK);
         blockWithItem(ModBlocks.GALENA);
         blockWithItem(ModBlocks.DEEPSLATE_GALENA);
         blockWithItem(ModBlocks.NETHER_GALENA);

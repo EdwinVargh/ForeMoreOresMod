@@ -24,7 +24,6 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         dropSelf(ModBlocks.LEAD_BLOCK.get());
         dropSelf(ModBlocks.RAW_LEAD_BLOCK.get());
         dropSelf(ModBlocks.CHISELED_LEAD_BLOCK.get());
-        dropSelf(ModBlocks.CHISELED_ALUMINUM_BLOCK.get());
         dropSelf(ModBlocks.TUNGSTEN_BLOCK.get());
 
         add(ModBlocks.BAUXITE_ORE.get(),
