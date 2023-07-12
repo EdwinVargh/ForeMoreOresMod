@@ -3,6 +3,7 @@ package net.edwin.miningmod.item;
 import net.edwin.miningmod.MiningMod;
 import net.edwin.miningmod.item.custom.BaseballBat;
 import net.edwin.miningmod.item.custom.CannedBread;
+import net.edwin.miningmod.item.custom.DrinkItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -81,7 +82,7 @@ public class ModItems {
     public static final RegistryObject<Item> CANNED_ROTTEN_FLESH = ITEMS.register("canned_rotten_flesh",
             () -> new Item(new Item.Properties().food(ModFoods.CANNED_ROTTEN_FLESH)));
     public static final RegistryObject<Item> SODA = ITEMS.register("soda",
-            () -> new Item(new Item.Properties().food(ModFoods.SODA)));
+            () -> new DrinkItem(new Item.Properties().food(ModFoods.SODA)));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
