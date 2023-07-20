@@ -1,0 +1,11 @@
+{
+
+  "values": [
+    "minecraft:emerald_ore",
+    "minecraft:deepslate_emerald_ore",
+    "minecraft:emerald_block",
+    "miningmod:tungsten_ore",
+    "miningmod:deepslate_tungsten_ore",
+    "miningmod:tungsten_block"
+  ]
+}

@@ -72,12 +72,4 @@ public class ModBlocks {
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
     }
-    public static class Tags {
-        public static final TagKey<Block> NEEDS_JADE_TOOL = tag("needs_jade_tool");
-        public static final TagKey<Block> NEEDS_TUNGSTEN_TOOL = tag("needs_tungsten_tool");
-
-        private static TagKey<Block> tag(String name) {
-            return BlockTags.create(new ResourceLocation(MiningMod.MOD_ID,name));
-    }
-    }
 }
