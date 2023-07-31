@@ -17,11 +17,11 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        simpleItem(ModItems.ALUMINUM);
+        simpleItem(ModItems.ALUMINUM_INGOT);
         simpleItem(ModItems.BAUXITE);
         simpleItem(ModItems.JADE);
-        simpleItem(ModItems.LEAD);
-        simpleItem(ModItems.RAW_LEAD);
+        simpleItem(ModItems.LEAD_INGOT);
+        simpleItem(ModItems.RAW_GALENA);
         handheldItem(ModItems.JADE_SWORD);
         handheldItem(ModItems.JADE_SHOVEL);
         handheldItem(ModItems.JADE_AXE);

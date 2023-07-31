@@ -7,5 +7,5 @@
   "ingredient": {
     "item": "miningmod:bauxite"
   },
-  "result": "miningmod:aluminum"
+  "result": "miningmod:aluminum_ingot"
 }

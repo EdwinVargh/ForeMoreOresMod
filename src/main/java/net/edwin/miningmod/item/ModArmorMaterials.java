@@ -12,10 +12,10 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    JADE("jade", 17, new int[]{2, 5, 7, 3}, 20, SoundEvents.ARMOR_EQUIP_DIAMOND, 0.0F, 0.0F, () -> {
+    JADE("jade", 20, new int[]{2, 5, 7, 3}, 15, SoundEvents.ARMOR_EQUIP_DIAMOND, 0.0F, 0.0F, () -> {
         return Ingredient.of(ModItems.JADE.get());
     }),
-    TUNGSTEN("tungsten", 30, new int[]{2, 6, 8, 3}, 10, SoundEvents.ARMOR_EQUIP_NETHERITE, 2.0F, 0.1F, () -> {
+    TUNGSTEN("tungsten", 25, new int[]{2, 6, 8, 3}, 10, SoundEvents.ARMOR_EQUIP_NETHERITE, 1.0F, 0.1F, () -> {
         return Ingredient.of(ModItems.TUNGSTEN.get());
     });
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};

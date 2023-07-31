@@ -37,7 +37,7 @@ public class ModBlocks {
             () -> new LeadBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(2f).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> LEAD_BLOCK = registerBlock("lead_block",
             () -> new LeadBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(2f).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> CHISELED_LEAD_BLOCK = registerBlock("chiseled_lead_block",
+    public static final RegistryObject<Block> CUT_LEAD_BLOCK = registerBlock("cut_lead_block",
             () -> new LeadBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(2f).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> REINFORCED_GLASS = registerBlock("reinforced_glass",
             () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).strength(2f).explosionResistance(1200)));

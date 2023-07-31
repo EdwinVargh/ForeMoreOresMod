@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_lead_block": {
+    "has_raw_galena": {
       "conditions": {
         "items": [
           {
             "items": [
-              "miningmod:lead_block"
+              "miningmod:raw_galena"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "miningmod:lead"
+        "recipe": "miningmod:lead_ingot_from_smelting_raw_galena"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_lead_block",
+      "has_raw_galena",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "miningmod:lead"
+      "miningmod:lead_ingot_from_smelting_raw_galena"
     ]
   },
   "sends_telemetry_event": false

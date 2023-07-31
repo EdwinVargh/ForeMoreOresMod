@@ -44,9 +44,9 @@ public class MiningMod
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTab() == ModCreativeModeTabs.TUTORIAL_TAB.get()) {
-            event.accept(ModItems.LEAD);
-            event.accept(ModItems.RAW_LEAD);
-            event.accept(ModItems.ALUMINUM);
+            event.accept(ModItems.LEAD_INGOT);
+            event.accept(ModItems.RAW_GALENA);
+            event.accept(ModItems.ALUMINUM_INGOT);
             event.accept(ModItems.BAUXITE);
             event.accept(ModItems.JADE);
             event.accept(ModItems.TUNGSTEN);
@@ -78,7 +78,7 @@ public class MiningMod
             event.accept(ModItems.TUNGSTEN_CHESTPLATE);
             event.accept(ModItems.TUNGSTEN_LEGGINGS);
             event.accept(ModItems.TUNGSTEN_BOOTS);
-            event.accept(ModBlocks.CHISELED_LEAD_BLOCK);
+            event.accept(ModBlocks.CUT_LEAD_BLOCK);
             event.accept(ModItems.CANNED_APPLES);
             event.accept(ModItems.CANNED_BEEF);
             event.accept(ModItems.CANNED_BREAD);
@@ -91,10 +91,10 @@ public class MiningMod
         }
 
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.ALUMINUM);
+            event.accept(ModItems.ALUMINUM_INGOT);
             event.accept(ModItems.BAUXITE);
-            event.accept(ModItems.RAW_LEAD);
-            event.accept(ModItems.LEAD);
+            event.accept(ModItems.RAW_GALENA);
+            event.accept(ModItems.LEAD_INGOT);
             event.accept(ModItems.JADE);
             event.accept(ModItems.TUNGSTEN);
             event.accept(ModBlocks.REINFORCED_GLASS);
@@ -107,7 +107,7 @@ public class MiningMod
             event.accept(ModBlocks.LEAD_BLOCK);
             event.accept(ModBlocks.RAW_LEAD_BLOCK);
             event.accept(ModBlocks.TUNGSTEN_BLOCK);
-            event.accept(ModBlocks.CHISELED_LEAD_BLOCK);
+            event.accept(ModBlocks.CUT_LEAD_BLOCK);
             event.accept(ModBlocks.REINFORCED_GLASS);
         }
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {

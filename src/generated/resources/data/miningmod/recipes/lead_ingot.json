@@ -3,11 +3,11 @@
   "category": "building",
   "ingredients": [
     {
-      "item": "miningmod:aluminum_block"
+      "item": "miningmod:lead_block"
     }
   ],
   "result": {
     "count": 9,
-    "item": "miningmod:aluminum"
+    "item": "miningmod:lead_ingot"
   }
 }

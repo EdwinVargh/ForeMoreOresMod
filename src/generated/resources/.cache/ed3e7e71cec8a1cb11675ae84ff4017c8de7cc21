@@ -1,5 +1,5 @@
-// 1.20	2023-07-04T15:56:20.978107	Item Models: miningmod
-3943b58a2398a52ae2eaf1fc1b1d88f00f50714d assets/miningmod/models/item/aluminum.json
+// 1.20	2023-07-31T11:04:33.736177	Item Models: miningmod
+88db0a956ed749d2c3a8711d4f3ac8a5c8fdbf0f assets/miningmod/models/item/aluminum_ingot.json
 eab2a7e540bae6a89f7cad17d083f68fe1a1f917 assets/miningmod/models/item/baseball_bat.json
 2f65d14320ff54dfb3428e7b61e4062d5d764b20 assets/miningmod/models/item/bauxite.json
 c0f548fc61d1987c4bb8c2d00e019dca1db098e4 assets/miningmod/models/item/canned_apples.json
@@ -20,8 +20,8 @@ b9cb3b26ca3133c30b4b59f31ebb7af5ad4cdf23 assets/miningmod/models/item/jade_leggi
 344cf57496ab397f8ab331de0d7865795af64025 assets/miningmod/models/item/jade_pickaxe.json
 40fa1f5307bf5fe5a603cdb5fad7729f81d57e78 assets/miningmod/models/item/jade_shovel.json
 03a326410efb10e7e6b6fe4d598e908eb38895b0 assets/miningmod/models/item/jade_sword.json
-42c3b68999a4bdf5633516faa27bcc231850d4f7 assets/miningmod/models/item/lead.json
-4f694629d9662d84ae568390e742ba4b8a0870a0 assets/miningmod/models/item/raw_lead.json
+8569fbb161d8c4b8e2375836dd7c3da0aeea1ac6 assets/miningmod/models/item/lead_ingot.json
+8949beb969eaa4918fb686d867caf0be6af1441e assets/miningmod/models/item/raw_galena.json
 349f40d32c8860f6946c8231920c05c528f219ef assets/miningmod/models/item/soda.json
 77eee0a23b55ad1fb7a207a45c4327253f1d8bab assets/miningmod/models/item/tungsten.json
 bf961c23ebd6e61acf0cad974ce558292d934d46 assets/miningmod/models/item/tungsten_axe.json

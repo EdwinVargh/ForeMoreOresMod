@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "miningmod:item/raw_lead"
+    "layer0": "miningmod:item/aluminum_ingot"
   }
 }

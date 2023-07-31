@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:aluminum_from_blasting_bauxite"
+        "recipe": "minecraft:aluminum_ingot_from_blasting_bauxite"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:aluminum_from_blasting_bauxite"
+      "minecraft:aluminum_ingot_from_blasting_bauxite"
     ]
   },
   "sends_telemetry_event": false

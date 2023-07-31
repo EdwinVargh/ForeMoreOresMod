@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "miningmod:chiseled_lead_block"
+          "name": "miningmod:cut_lead_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "miningmod:blocks/chiseled_lead_block"
+  "random_sequence": "miningmod:blocks/cut_lead_block"
 }

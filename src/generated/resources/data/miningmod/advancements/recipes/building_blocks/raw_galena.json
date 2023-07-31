@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_lead": {
+    "has_raw_lead_block": {
       "conditions": {
         "items": [
           {
             "items": [
-              "miningmod:lead"
+              "miningmod:raw_lead_block"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:chiseled_lead_block_from_lead_stonecutting"
+        "recipe": "miningmod:raw_galena"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_lead",
+      "has_raw_lead_block",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:chiseled_lead_block_from_lead_stonecutting"
+      "miningmod:raw_galena"
     ]
   },
   "sends_telemetry_event": false

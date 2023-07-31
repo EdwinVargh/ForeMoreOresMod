@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "miningmod:aluminum"
+      "item": "miningmod:aluminum_ingot"
     },
     {
       "item": "minecraft:melon"

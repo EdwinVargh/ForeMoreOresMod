@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "miningmod:block/chiseled_lead_block"
+    "all": "miningmod:block/cut_lead_block"
   }
 }

@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_aluminum_block": {
+    "has_lead_block": {
       "conditions": {
         "items": [
           {
             "items": [
-              "miningmod:aluminum_block"
+              "miningmod:lead_block"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "miningmod:aluminum"
+        "recipe": "miningmod:lead_ingot"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_aluminum_block",
+      "has_lead_block",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "miningmod:aluminum"
+      "miningmod:lead_ingot"
     ]
   },
   "sends_telemetry_event": false

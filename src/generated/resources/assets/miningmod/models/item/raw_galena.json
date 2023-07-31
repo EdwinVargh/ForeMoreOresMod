@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "miningmod:item/lead"
+    "layer0": "miningmod:item/raw_galena"
   }
 }

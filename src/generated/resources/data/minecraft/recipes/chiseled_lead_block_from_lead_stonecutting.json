@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "miningmod:lead_block"
-  },
-  "result": "miningmod:chiseled_lead_block"
-}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "miningmod:block/cut_lead_block"
+    }
+  }
+}

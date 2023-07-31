@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_raw_lead": {
+    "has_lead": {
       "conditions": {
         "items": [
           {
             "items": [
-              "miningmod:raw_lead"
+              "miningmod:lead_ingot"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:lead_from_blasting_raw_lead"
+        "recipe": "miningmod:cut_lead_block"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_raw_lead",
+      "has_lead",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:lead_from_blasting_raw_lead"
+      "miningmod:cut_lead_block"
     ]
   },
   "sends_telemetry_event": false

@@ -1,8 +1,8 @@
-// 1.20	2023-07-10T15:47:47.595062	Block States: miningmod
+// 1.20	2023-07-31T11:04:33.717155	Block States: miningmod
 ac7b1694a209eaf41ea27a620233861548cb8321 assets/miningmod/blockstates/aluminum_block.json
 3a7035fcd332074ea874d23a97d8115b8a266b4f assets/miningmod/blockstates/bauxite_block.json
 a40d7157bcde0358f44f179c183723daebba3f3a assets/miningmod/blockstates/bauxite_ore.json
-76fe3c3b88909d05fc3210b0dbc8ec72898e1b36 assets/miningmod/blockstates/chiseled_lead_block.json
+8c8d2bebbadc8bb8eb91e52c3b0eaa4234747fec assets/miningmod/blockstates/cut_lead_block.json
 3e6f63a721c5712da43639b6f995e22f89996140 assets/miningmod/blockstates/deepslate_bauxite_ore.json
 4d169429a4832ff5dfea0d9c34c0e0a590608388 assets/miningmod/blockstates/deepslate_galena.json
 caea123a7e4c131d00863521b8e8256bf98011a1 assets/miningmod/blockstates/deepslate_jade_ore.json
@@ -19,7 +19,7 @@ ca1a29de0a51993f2b79821f107b1702fd00043b assets/miningmod/blockstates/tungsten_o
 486aabcbc417acf1f522e6a956f0d03cabb4a58b assets/miningmod/models/block/aluminum_block.json
 3eabdbb4bc136e02514cef883eab3ea884745fbe assets/miningmod/models/block/bauxite_block.json
 7c40d6499b3e3b3053a4b289079e6068863acfa9 assets/miningmod/models/block/bauxite_ore.json
-9d1a7a9ce354234ed944dece3a0eb789c2c2319c assets/miningmod/models/block/chiseled_lead_block.json
+cd184940d526860922347067ed211ffb39d606a7 assets/miningmod/models/block/cut_lead_block.json
 7002135d339d3f35783c9c2638f821ae13dd1702 assets/miningmod/models/block/deepslate_bauxite_ore.json
 ac15104d9551d8fea53aa655e26f4283bc25eeea assets/miningmod/models/block/deepslate_galena.json
 dcdce5722a0255eaa91ac064ebd7df8c80203371 assets/miningmod/models/block/deepslate_jade_ore.json
@@ -36,7 +36,7 @@ fe061789e2ae2eff3305070242e6b95d36825396 assets/miningmod/models/block/tungsten_
 d7ff4fac6f0205b74126c6b73df21797a446cf83 assets/miningmod/models/item/aluminum_block.json
 04561c21c49d2ace966de1220afa0b0abba67e56 assets/miningmod/models/item/bauxite_block.json
 a023f858d1c9d3eaa99561da54783e846ed7ef01 assets/miningmod/models/item/bauxite_ore.json
-29289ea77e9c1563ffb85aaded73cc0ca7e3280f assets/miningmod/models/item/chiseled_lead_block.json
+e54f0dd0a080ced1ede61a4b35aa228a4c98753a assets/miningmod/models/item/cut_lead_block.json
 50a8884d768a644763bb096d11ec4e3f7f2b7aa0 assets/miningmod/models/item/deepslate_bauxite_ore.json
 4437bac0f408444c3718477b63311163241b0316 assets/miningmod/models/item/deepslate_galena.json
 f0c1e4aa2013c948ebc73444b7230d1bba9b11c3 assets/miningmod/models/item/deepslate_jade_ore.json

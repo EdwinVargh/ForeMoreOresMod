@@ -23,7 +23,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         dropSelf(ModBlocks.JADE_BLOCK.get());
         dropSelf(ModBlocks.LEAD_BLOCK.get());
         dropSelf(ModBlocks.RAW_LEAD_BLOCK.get());
-        dropSelf(ModBlocks.CHISELED_LEAD_BLOCK.get());
+        dropSelf(ModBlocks.CUT_LEAD_BLOCK.get());
         dropSelf(ModBlocks.TUNGSTEN_BLOCK.get());
 
         add(ModBlocks.BAUXITE_ORE.get(),
@@ -33,13 +33,13 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         add(ModBlocks.JADE_ORE.get(),
                 (block) -> createOreDrop(ModBlocks.JADE_ORE.get(), ModItems.JADE.get()));
         add(ModBlocks.GALENA.get(),
-                (block) -> createOreDrop(ModBlocks.GALENA.get(), ModItems.RAW_LEAD.get()));
+                (block) -> createOreDrop(ModBlocks.GALENA.get(), ModItems.RAW_GALENA.get()));
         add(ModBlocks.DEEPSLATE_GALENA.get(),
-                (block) -> createOreDrop(ModBlocks.DEEPSLATE_GALENA.get(), ModItems.RAW_LEAD.get()));
+                (block) -> createOreDrop(ModBlocks.DEEPSLATE_GALENA.get(), ModItems.RAW_GALENA.get()));
         add(ModBlocks.REINFORCED_GLASS.get(),
                 (block) -> createSilkTouchOnlyTable(ModBlocks.REINFORCED_GLASS.get()));
         add(ModBlocks.NETHER_GALENA.get(),
-                (block) -> createOreDrop(ModBlocks.DEEPSLATE_GALENA.get(), ModItems.RAW_LEAD.get()));
+                (block) -> createOreDrop(ModBlocks.DEEPSLATE_GALENA.get(), ModItems.RAW_GALENA.get()));
         add(ModBlocks.DEEPSLATE_JADE_ORE.get(),
                 (block) -> createOreDrop(ModBlocks.DEEPSLATE_JADE_ORE.get(), ModItems.JADE.get()));
         add(ModBlocks.TUNGSTEN_ORE.get(),

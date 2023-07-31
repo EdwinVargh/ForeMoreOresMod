@@ -15,11 +15,11 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, MiningMod.MOD_ID);
     public static final RegistryObject<Item> BAUXITE = ITEMS.register("bauxite",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> ALUMINUM = ITEMS.register("aluminum",
+    public static final RegistryObject<Item> ALUMINUM_INGOT = ITEMS.register("aluminum_ingot",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> RAW_LEAD = ITEMS.register("raw_lead",
+    public static final RegistryObject<Item> RAW_GALENA = ITEMS.register("raw_galena",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> LEAD = ITEMS.register("lead",
+    public static final RegistryObject<Item> LEAD_INGOT = ITEMS.register("lead_ingot",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> JADE = ITEMS.register("jade",
             () -> new Item(new Item.Properties()));

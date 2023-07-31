@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_lead": {
+    "has_lead_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
-              "miningmod:lead"
+              "miningmod:lead_ingot"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_lead",
+      "has_lead_ingot",
       "has_the_recipe"
     ]
   ],
