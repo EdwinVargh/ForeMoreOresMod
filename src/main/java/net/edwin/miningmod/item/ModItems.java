@@ -67,6 +67,16 @@ public class ModItems {
 
     public static final RegistryObject<Item> CANNED_BEEF = ITEMS.register("canned_beef",
             () -> new Item(new Item.Properties().food(ModFoods.CANNED_BEEF)));
+    public static final RegistryObject<Item> CANNED_BEETROOT_SOUP = ITEMS.register("canned_beetroot_soup",
+            () -> new Item(new Item.Properties().food(ModFoods.CANNED_BEETROOT_SOUP)));
+    public static final RegistryObject<Item> CANNED_BERRIES = ITEMS.register("canned_berries",
+            () -> new Item(new Item.Properties().food(ModFoods.CANNED_BERRIES)));
+    public static final RegistryObject<Item> CANNED_CARROTS = ITEMS.register("canned_carrots",
+            () -> new Item(new Item.Properties().food(ModFoods.CANNED_CARROTS)));
+    public static final RegistryObject<Item> CANNED_CHICKEN = ITEMS.register("canned_chicken",
+            () -> new Item(new Item.Properties().food(ModFoods.CANNED_CHICKEN)));
+    public static final RegistryObject<Item> CANNED_CHORUS_FRUIT = ITEMS.register("canned_chorus_fruit",
+            () -> new ChorusFruitItem(new Item.Properties().food(ModFoods.CANNED_CHORUS_FRUIT)));
     public static final RegistryObject<Item> CANNED_BREAD = ITEMS.register("canned_bread",
             () -> new CannedBread(new Item.Properties().food(ModFoods.CANNED_BREAD)));
     public static final RegistryObject<Item> CANNED_APPLES = ITEMS.register("canned_apples",

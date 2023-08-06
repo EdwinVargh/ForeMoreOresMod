@@ -43,7 +43,7 @@ public class MiningMod
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTab() == ModCreativeModeTabs.TUTORIAL_TAB.get()) {
+        if(event.getTab() == ModCreativeModeTabs.MINING_TAB.get()) {
             event.accept(ModItems.LEAD_INGOT);
             event.accept(ModItems.RAW_GALENA);
             event.accept(ModItems.ALUMINUM_INGOT);
@@ -88,6 +88,11 @@ public class MiningMod
             event.accept(ModItems.CANNED_SALMON);
             event.accept(ModItems.CANNED_ROTTEN_FLESH);
             event.accept(ModItems.SODA);
+            event.accept(ModItems.CANNED_CHORUS_FRUIT);
+            event.accept(ModItems.CANNED_BEETROOT_SOUP);
+            event.accept(ModItems.CANNED_CHICKEN);
+            event.accept(ModItems.CANNED_BERRIES);
+            event.accept(ModItems.CANNED_CARROTS);
         }
 
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
@@ -143,6 +148,11 @@ public class MiningMod
             event.accept(ModItems.CANNED_SALMON);
             event.accept(ModItems.CANNED_ROTTEN_FLESH);
             event.accept(ModItems.SODA);
+            event.accept(ModItems.CANNED_CHORUS_FRUIT);
+            event.accept(ModItems.CANNED_BEETROOT_SOUP);
+            event.accept(ModItems.CANNED_CHICKEN);
+            event.accept(ModItems.CANNED_BERRIES);
+            event.accept(ModItems.CANNED_CARROTS);
         }
     }
 

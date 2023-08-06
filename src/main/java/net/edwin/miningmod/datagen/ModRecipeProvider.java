@@ -49,7 +49,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 ModBlocks.TUNGSTEN_BLOCK.get());
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.SODA.get())
                .requires(ModItems.ALUMINUM_INGOT.get())
-                .requires(Items.HONEY_BOTTLE)
+                .requires(Items.SUGAR)
                 .unlockedBy("has_aluminum", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ModItems.ALUMINUM_INGOT.get()).build()))
                 .save(consumer);
@@ -59,9 +59,39 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_aluminum", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ModItems.ALUMINUM_INGOT.get()).build()))
                 .save(consumer);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CANNED_BERRIES.get())
+                .requires(ModItems.ALUMINUM_INGOT.get())
+                .requires(Items.SWEET_BERRIES)
+                .unlockedBy("has_aluminum", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.ALUMINUM_INGOT.get()).build()))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CANNED_BEETROOT_SOUP.get())
+                .requires(ModItems.ALUMINUM_INGOT.get())
+                .requires(Items.BEETROOT_SOUP)
+                .unlockedBy("has_aluminum", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.ALUMINUM_INGOT.get()).build()))
+                .save(consumer);
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CANNED_BREAD.get())
                 .requires(ModItems.ALUMINUM_INGOT.get())
                 .requires(Items.BREAD)
+                .unlockedBy("has_aluminum", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.ALUMINUM_INGOT.get()).build()))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CANNED_CARROTS.get())
+                .requires(ModItems.ALUMINUM_INGOT.get())
+                .requires(Items.CARROT)
+                .unlockedBy("has_aluminum", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.ALUMINUM_INGOT.get()).build()))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CANNED_CHICKEN.get())
+                .requires(ModItems.ALUMINUM_INGOT.get())
+                .requires(Items.COOKED_CHICKEN)
+                .unlockedBy("has_aluminum", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.ALUMINUM_INGOT.get()).build()))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CANNED_CHORUS_FRUIT.get())
+                .requires(ModItems.ALUMINUM_INGOT.get())
+                .requires(Items.CHORUS_FRUIT)
                 .unlockedBy("has_aluminum", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ModItems.ALUMINUM_INGOT.get()).build()))
                 .save(consumer);

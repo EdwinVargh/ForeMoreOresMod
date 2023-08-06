@@ -6,10 +6,10 @@
       "item": "miningmod:aluminum_ingot"
     },
     {
-      "item": "minecraft:sugar"
+      "item": "minecraft:sweet_berries"
     }
   ],
   "result": {
-    "item": "miningmod:soda"
+    "item": "miningmod:canned_berries"
   }
 }

@@ -1,10 +1,15 @@
-// 1.20	2023-07-31T11:04:33.736177	Item Models: miningmod
+// 1.20	2023-08-06T16:15:03.096978	Item Models: miningmod
 88db0a956ed749d2c3a8711d4f3ac8a5c8fdbf0f assets/miningmod/models/item/aluminum_ingot.json
 eab2a7e540bae6a89f7cad17d083f68fe1a1f917 assets/miningmod/models/item/baseball_bat.json
 2f65d14320ff54dfb3428e7b61e4062d5d764b20 assets/miningmod/models/item/bauxite.json
 c0f548fc61d1987c4bb8c2d00e019dca1db098e4 assets/miningmod/models/item/canned_apples.json
 4fdd6f924b9deaae5a766bc20e6091cceb67c6e1 assets/miningmod/models/item/canned_beef.json
+9ccfa4f576697114a42d384164cee657e24eb25e assets/miningmod/models/item/canned_beetroot_soup.json
+0add4627aab15722069fdaefbad7db1d24369cf7 assets/miningmod/models/item/canned_berries.json
 1060018cc8b640cb53ce22a6e1c0189712f4496d assets/miningmod/models/item/canned_bread.json
+02e4a5e607f0b67790a836d665571f772f0644d7 assets/miningmod/models/item/canned_carrots.json
+8392a597e4140bec9552ffeaf13721f60bbb3a75 assets/miningmod/models/item/canned_chicken.json
+8b15df3677b1fef75a2da58e1f328b93bf8bb133 assets/miningmod/models/item/canned_chorus_fruit.json
 df45f8b8f9e0a62e9ba638c89fed7bf21ffc9c04 assets/miningmod/models/item/canned_cod.json
 f4037ab370488c6cabfe1d0030504c7559fd4c4c assets/miningmod/models/item/canned_melon.json
 936d30e7226f1e8e89ba74c66ed727d997d96271 assets/miningmod/models/item/canned_potatoes.json

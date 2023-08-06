@@ -16,7 +16,7 @@ import net.minecraftforge.registries.RegistryObject;
 @Mod.EventBusSubscriber(modid = MiningMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB,MiningMod.MOD_ID);
-    public static RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE_TABS.register("tutorial_tab", () ->
+    public static RegistryObject<CreativeModeTab> MINING_TAB = CREATIVE_MODE_TABS.register("mining_tab", () ->
             CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BAUXITE.get())).title(Component.literal("Tutorial Tab")).build());
 
     public static void register(IEventBus eventBus) {

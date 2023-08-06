@@ -6,10 +6,10 @@
       "item": "miningmod:aluminum_ingot"
     },
     {
-      "item": "minecraft:sugar"
+      "item": "minecraft:chorus_fruit"
     }
   ],
   "result": {
-    "item": "miningmod:soda"
+    "item": "miningmod:canned_chorus_fruit"
   }
 }

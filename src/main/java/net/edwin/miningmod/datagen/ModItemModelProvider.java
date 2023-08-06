@@ -50,6 +50,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.CANNED_SALMON);
         simpleItem(ModItems.CANNED_MELON);
         simpleItem(ModItems.CANNED_ROTTEN_FLESH);
+        simpleItem(ModItems.CANNED_CHORUS_FRUIT);
+        simpleItem(ModItems.CANNED_BEETROOT_SOUP);
+        simpleItem(ModItems.CANNED_CHICKEN);
+        simpleItem(ModItems.CANNED_BERRIES);
+        simpleItem(ModItems.CANNED_CARROTS);
         simpleItem(ModItems.SODA);
     }
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

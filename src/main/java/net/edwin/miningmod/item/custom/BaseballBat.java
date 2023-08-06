@@ -9,6 +9,7 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
+import net.minecraftforge.event.entity.living.LivingKnockBackEvent;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -18,12 +19,6 @@ import static java.lang.Math.*;
 public class BaseballBat extends SwordItem {
     public BaseballBat(Tier pTier, int pAttackDamageModifier, float pAttackSpeedModifier, Properties pProperties) {
         super(pTier, pAttackDamageModifier, pAttackSpeedModifier, pProperties);
-    }
-
-    @Override
-    public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
-        pTooltipComponents.add(Component.literal("BONK!").withStyle(ChatFormatting.DARK_AQUA));
     }
 
     @Override
