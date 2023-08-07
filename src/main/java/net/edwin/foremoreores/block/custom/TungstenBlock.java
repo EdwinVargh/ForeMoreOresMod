@@ -1,4 +1,4 @@
-package net.edwin.miningmod.block.custom;
+package net.edwin.foremoreores.block.custom;
 
 import net.minecraft.world.level.block.FallingBlock;
 

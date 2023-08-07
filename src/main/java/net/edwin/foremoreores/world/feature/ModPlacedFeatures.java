@@ -1,14 +1,10 @@
-package net.edwin.miningmod.world.feature;
+package net.edwin.foremoreores.world.feature;
 
-import net.edwin.miningmod.MiningMod;
-import net.edwin.miningmod.block.ModBlocks;
-import net.edwin.miningmod.world.feature.ModOrePlacements;
+import net.edwin.foremoreores.ForeMoreOres;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderGetter;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstapContext;
-import net.minecraft.data.worldgen.placement.PlacementUtils;
-import net.minecraft.data.worldgen.placement.VegetationPlacements;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.levelgen.VerticalAnchor;
@@ -48,7 +44,7 @@ public class ModPlacedFeatures {
 
 
     private static ResourceKey<PlacedFeature> createKey(String name) {
-        return ResourceKey.create(Registries.PLACED_FEATURE, new ResourceLocation(MiningMod.MOD_ID, name));
+        return ResourceKey.create(Registries.PLACED_FEATURE, new ResourceLocation(ForeMoreOres.MOD_ID, name));
     }
 
     private static void register(BootstapContext<PlacedFeature> context, ResourceKey<PlacedFeature> key, Holder<ConfiguredFeature<?, ?>> configuration,

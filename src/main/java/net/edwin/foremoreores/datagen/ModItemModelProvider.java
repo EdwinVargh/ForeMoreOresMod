@@ -1,7 +1,7 @@
-package net.edwin.miningmod.datagen;
+package net.edwin.foremoreores.datagen;
 
-import net.edwin.miningmod.MiningMod;
-import net.edwin.miningmod.item.ModItems;
+import net.edwin.foremoreores.ForeMoreOres;
+import net.edwin.foremoreores.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
@@ -12,7 +12,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItemModelProvider extends ItemModelProvider {
     public ModItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
-        super(output, MiningMod.MOD_ID, existingFileHelper);
+        super(output, ForeMoreOres.MOD_ID, existingFileHelper);
     }
 
     @Override
@@ -60,12 +60,12 @@ public class ModItemModelProvider extends ItemModelProvider {
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
-                new ResourceLocation(MiningMod.MOD_ID,"item/" + item.getId().getPath()));
+                new ResourceLocation(ForeMoreOres.MOD_ID,"item/" + item.getId().getPath()));
     }
 
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/handheld")).texture("layer0",
-                new ResourceLocation(MiningMod.MOD_ID,"item/" + item.getId().getPath()));
+                new ResourceLocation(ForeMoreOres.MOD_ID,"item/" + item.getId().getPath()));
     }
 }

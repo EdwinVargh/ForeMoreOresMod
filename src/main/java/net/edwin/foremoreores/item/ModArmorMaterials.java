@@ -1,13 +1,10 @@
-package net.edwin.miningmod.item;
+package net.edwin.foremoreores.item;
 
-import com.electronwill.nightconfig.core.io.ParsingMode;
-import net.edwin.miningmod.MiningMod;
 import net.minecraft.Util;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.LazyLoadedValue;
 import net.minecraft.util.StringRepresentable;
-import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorMaterials;

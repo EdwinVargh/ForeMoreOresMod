@@ -1,8 +1,8 @@
-package net.edwin.miningmod.datagen;
+package net.edwin.foremoreores.datagen;
 
-import net.edwin.miningmod.MiningMod;
-import net.edwin.miningmod.world.feature.ModConfiguredFeatures;
-import net.edwin.miningmod.world.feature.ModPlacedFeatures;
+import net.edwin.foremoreores.ForeMoreOres;
+import net.edwin.foremoreores.world.feature.ModConfiguredFeatures;
+import net.edwin.foremoreores.world.feature.ModPlacedFeatures;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.RegistrySetBuilder;
 import net.minecraft.core.registries.Registries;
@@ -18,6 +18,6 @@ public class ModWorldGenProvider extends DatapackBuiltinEntriesProvider {
             .add(Registries.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
 
     public ModWorldGenProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> registries) {
-        super(output, registries, BUILDER, Set.of(MiningMod.MOD_ID));
+        super(output, registries, BUILDER, Set.of(ForeMoreOres.MOD_ID));
     }
 }

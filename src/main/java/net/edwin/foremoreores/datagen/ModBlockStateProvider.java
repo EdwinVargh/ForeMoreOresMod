@@ -1,7 +1,7 @@
-package net.edwin.miningmod.datagen;
+package net.edwin.foremoreores.datagen;
 
-import net.edwin.miningmod.MiningMod;
-import net.edwin.miningmod.block.ModBlocks;
+import net.edwin.foremoreores.ForeMoreOres;
+import net.edwin.foremoreores.block.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
@@ -11,7 +11,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModBlockStateProvider extends BlockStateProvider {
 
     public ModBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
-        super(output, MiningMod.MOD_ID, exFileHelper);
+        super(output, ForeMoreOres.MOD_ID, exFileHelper);
     }
 
     @Override

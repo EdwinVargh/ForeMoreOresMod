@@ -1,9 +1,9 @@
-package net.edwin.miningmod.item;
+package net.edwin.foremoreores.item;
 
-import net.edwin.miningmod.MiningMod;
-import net.edwin.miningmod.item.custom.BaseballBat;
-import net.edwin.miningmod.item.custom.CannedBread;
-import net.edwin.miningmod.item.custom.DrinkItem;
+import net.edwin.foremoreores.ForeMoreOres;
+import net.edwin.foremoreores.item.custom.BaseballBat;
+import net.edwin.foremoreores.item.custom.CannedBread;
+import net.edwin.foremoreores.item.custom.DrinkItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -12,7 +12,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, MiningMod.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, ForeMoreOres.MOD_ID);
     public static final RegistryObject<Item> BAUXITE = ITEMS.register("bauxite",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ALUMINUM_INGOT = ITEMS.register("aluminum_ingot",

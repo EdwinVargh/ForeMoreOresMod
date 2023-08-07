@@ -1,11 +1,9 @@
-package net.edwin.miningmod.datagen;
+package net.edwin.foremoreores.datagen;
 
-import net.edwin.miningmod.block.ModBlocks;
-import net.edwin.miningmod.item.ModItems;
+import net.edwin.foremoreores.block.ModBlocks;
+import net.edwin.foremoreores.item.ModItems;
 import net.minecraft.data.loot.BlockLootSubProvider;
-import net.minecraft.world.flag.FeatureFlagSet;
 import net.minecraft.world.flag.FeatureFlags;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.registries.RegistryObject;
 

@@ -1,4 +1,4 @@
-package net.edwin.miningmod.item.custom;
+package net.edwin.foremoreores.item.custom;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;

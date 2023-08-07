@@ -1,13 +1,9 @@
-package net.edwin.miningmod.block;
+package net.edwin.foremoreores.block;
 
-import net.edwin.miningmod.MiningMod;
-import net.edwin.miningmod.block.custom.LeadBlock;
-import net.edwin.miningmod.block.custom.TungstenBlock;
-import net.edwin.miningmod.item.ModItems;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.tags.BlockTags;
-import net.minecraft.tags.ItemTags;
-import net.minecraft.tags.TagKey;
+import net.edwin.foremoreores.ForeMoreOres;
+import net.edwin.foremoreores.block.custom.LeadBlock;
+import net.edwin.foremoreores.block.custom.TungstenBlock;
+import net.edwin.foremoreores.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -23,7 +19,7 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
-            DeferredRegister.create(ForgeRegistries.BLOCKS, MiningMod.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.BLOCKS, ForeMoreOres.MOD_ID);
 
     public static final RegistryObject<Block> BAUXITE_BLOCK = registerBlock("bauxite_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).strength(2f).requiresCorrectToolForDrops()));

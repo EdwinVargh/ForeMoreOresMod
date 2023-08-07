@@ -1,5 +1,5 @@
 
-package net.edwin.miningmod.world.feature;
+package net.edwin.foremoreores.world.feature;
 
 import net.minecraft.world.level.levelgen.placement.*;
 

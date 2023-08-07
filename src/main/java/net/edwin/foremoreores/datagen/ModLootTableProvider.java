@@ -1,4 +1,4 @@
-package net.edwin.miningmod.datagen;
+package net.edwin.foremoreores.datagen;
 
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.loot.LootTableProvider;

@@ -1,4 +1,4 @@
-package net.edwin.miningmod.item;
+package net.edwin.foremoreores.item;
 
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;

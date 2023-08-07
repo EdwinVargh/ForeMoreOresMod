@@ -1,14 +1,14 @@
-package net.edwin.miningmod;
+package net.edwin.foremoreores;
 
 import com.mojang.logging.LogUtils;
-import net.edwin.miningmod.block.ModBlocks;
-import net.edwin.miningmod.item.ModItems;
+import net.edwin.foremoreores.block.ModBlocks;
+import net.edwin.foremoreores.item.ModItems;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
-import net.edwin.miningmod.item.ModCreativeModeTabs;
+import net.edwin.foremoreores.item.ModCreativeModeTabs;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -19,13 +19,13 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(MiningMod.MOD_ID)
-public class MiningMod
+@Mod(ForeMoreOres.MOD_ID)
+public class ForeMoreOres
 {
-    public static final String MOD_ID = "miningmod";
+    public static final String MOD_ID = "foremoreores";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public MiningMod()
+    public ForeMoreOres()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModCreativeModeTabs.register(modEventBus);

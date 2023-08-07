@@ -1,6 +1,6 @@
-package net.edwin.miningmod.item;
+package net.edwin.foremoreores.item;
 
-import net.edwin.miningmod.MiningMod;
+import net.edwin.foremoreores.ForeMoreOres;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.TagKey;
@@ -12,7 +12,7 @@ public class ModTags {
         public static final TagKey<Block> NEEDS_TUNGSTEN_TOOL = tag("needs_tungsten_tool");
 
         private static TagKey<Block> tag(String name) {
-            return BlockTags.create(new ResourceLocation(MiningMod.MOD_ID,name));
+            return BlockTags.create(new ResourceLocation(ForeMoreOres.MOD_ID,name));
         }
     }
 }
