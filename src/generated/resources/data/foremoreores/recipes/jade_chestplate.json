@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "J": {
+      "item": "foremoreores:jade"
+    }
+  },
+  "pattern": [
+    "J J",
+    "JJJ",
+    "JJJ"
+  ],
+  "result": {
+    "item": "foremoreores:jade_chestplate"
+  },
+  "show_notification": true
+}

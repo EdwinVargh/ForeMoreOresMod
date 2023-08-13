@@ -6,12 +6,12 @@
     "minecraft:deepslate_gold_ore",
     "minecraft:redstone_ore",
     "minecraft:deepslate_redstone_ore",
-    "miningmod:jade_ore",
-    "miningmod:deepslate_jade_ore",
-    "miningmod:jade_block",
-    "miningmod:bauxite_ore",
-    "miningmod:deepslate_bauxite_ore",
-    "miningmod:bauxite_block",
-    "miningmod:aluminum_block"
+    "foremoreores:jade_ore",
+    "foremoreores:deepslate_jade_ore",
+    "foremoreores:jade_block",
+    "foremoreores:bauxite_ore",
+    "foremoreores:deepslate_bauxite_ore",
+    "foremoreores:bauxite_block",
+    "foremoreores:aluminum_block"
   ]
 }

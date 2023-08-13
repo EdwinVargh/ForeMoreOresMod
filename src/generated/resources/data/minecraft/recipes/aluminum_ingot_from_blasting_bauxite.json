@@ -5,7 +5,7 @@
   "experience": 0.7,
   "group": "aluminum_blasting",
   "ingredient": {
-    "item": "miningmod:bauxite"
+    "item": "foremoreores:bauxite"
   },
-  "result": "miningmod:aluminum_ingot"
+  "result": "foremoreores:aluminum_ingot"
 }

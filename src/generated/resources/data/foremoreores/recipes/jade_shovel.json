@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "minecraft:stick"
+    },
+    "J": {
+      "item": "foremoreores:jade"
+    }
+  },
+  "pattern": [
+    " J ",
+    " I ",
+    " I "
+  ],
+  "result": {
+    "item": "foremoreores:jade_shovel"
+  },
+  "show_notification": true
+}

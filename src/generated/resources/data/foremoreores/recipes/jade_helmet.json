@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "J": {
+      "item": "foremoreores:jade"
+    }
+  },
+  "pattern": [
+    "JJJ",
+    "J J",
+    "   "
+  ],
+  "result": {
+    "item": "foremoreores:jade_helmet"
+  },
+  "show_notification": true
+}

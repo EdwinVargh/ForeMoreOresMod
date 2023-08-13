@@ -43,10 +43,10 @@
     "minecraft:waxed_oxidized_cut_copper_stairs",
     "minecraft:waxed_oxidized_cut_copper",
     "minecraft:lightning_rod",
-    "miningmod:galena",
-    "miningmod:deepslate_galena",
-    "miningmod:chiseled_lead_block",
-    "miningmod:raw_lead_block",
-    "miningmod:lead_block"
+    "foremoreores:galena",
+    "foremoreores:deepslate_galena",
+    "foremoreores:chiseled_lead_block",
+    "foremoreores:raw_lead_block",
+    "foremoreores:lead_block"
   ]
 }

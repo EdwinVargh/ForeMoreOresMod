@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "foremoreores:aluminum_ingot"
+    },
+    {
+      "item": "minecraft:beetroot_soup"
+    }
+  ],
+  "result": {
+    "item": "foremoreores:canned_beetroot_soup"
+  }
+}

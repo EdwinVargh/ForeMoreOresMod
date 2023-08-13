@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "J": {
+      "item": "foremoreores:tungsten"
+    }
+  },
+  "pattern": [
+    "J J",
+    "JJJ",
+    "JJJ"
+  ],
+  "result": {
+    "item": "foremoreores:tungsten_chestplate"
+  },
+  "show_notification": true
+}
