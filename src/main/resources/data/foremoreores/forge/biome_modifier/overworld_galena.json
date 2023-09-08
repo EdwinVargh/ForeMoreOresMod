@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
   "biomes": "#is_overworld",
-  "features": "miningmod:galena_placed",
+  "features": "foremoreores:galena_placed",
   "step": "underground_ores"
 }

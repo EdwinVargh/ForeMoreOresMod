@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
   "biomes": "#is_overworld",
-  "features": "miningmod:jade_placed",
+  "features": "foremoreores:jade_placed",
   "step": "underground_ores"
 }

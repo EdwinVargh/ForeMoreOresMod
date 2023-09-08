@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
   "biomes": "#is_overworld",
-  "features": "miningmod:bauxite_placed",
+  "features": "foremoreores:bauxite_placed",
   "step": "underground_ores"
 }
