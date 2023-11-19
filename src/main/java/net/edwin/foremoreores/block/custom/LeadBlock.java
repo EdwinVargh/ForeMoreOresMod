@@ -1,6 +1,7 @@
 package net.edwin.foremoreores.block.custom;
 
 import net.edwin.foremoreores.item.ModItems;
+import net.edwin.foremoreores.item.ModTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
@@ -10,6 +11,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
@@ -33,14 +35,12 @@ public class LeadBlock extends Block {
     }
     boolean damagedOnLead(ItemStack stack, LivingEntity wearer)
     {
-        return !(stack.is(Items.LEATHER_BOOTS) || stack.is(Items.GOLDEN_BOOTS) || stack.is(Items.CHAINMAIL_BOOTS)
-            || stack.is(Items.IRON_BOOTS) || stack.is(Items.DIAMOND_BOOTS) || stack.is(ModItems.JADE_BOOTS.get())
-            || stack.is(ModItems.TUNGSTEN_BOOTS.get()));
+        return (stack.isEmpty());
     }
     @Override
     public void stepOn(Level level, BlockPos pos, BlockState state, Entity entity) {
         if(entity instanceof LivingEntity livingEntity) {
-                if (damagedOnLead(((LivingEntity) entity).getItemBySlot(EquipmentSlot.FEET),(LivingEntity) entity)) {
+                if (damagedOnLead(((LivingEntity)entity).getItemBySlot(EquipmentSlot.FEET),(LivingEntity) entity)) {
                     livingEntity.addEffect(new MobEffectInstance(MobEffects.POISON, 200));
                     livingEntity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 200));
                 }

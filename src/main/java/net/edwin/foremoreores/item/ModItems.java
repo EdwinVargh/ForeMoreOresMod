@@ -4,6 +4,7 @@ import net.edwin.foremoreores.ForeMoreOres;
 import net.edwin.foremoreores.item.custom.BaseballBat;
 import net.edwin.foremoreores.item.custom.CannedBread;
 import net.edwin.foremoreores.item.custom.DrinkItem;
+import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
