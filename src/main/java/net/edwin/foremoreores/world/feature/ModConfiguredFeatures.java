@@ -25,6 +25,7 @@ public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_GALENA_KEY = registerKey("galena");
     public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_TUNGSTEN_KEY = registerKey("tungsten_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> NETHER_GALENA_KEY = registerKey("nether_galena");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> NETHER_SULFUR_KEY = registerKey("nether_sulfur");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplaceables = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
@@ -46,6 +47,8 @@ public class ModConfiguredFeatures {
         register(context, OVERWORLD_GALENA_KEY, Feature.ORE, new OreConfiguration(overworldGalena, 6));
         register(context, NETHER_GALENA_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables,
                 ModBlocks.NETHER_GALENA.get().defaultBlockState(), 6));
+        register(context, NETHER_SULFUR_KEY, Feature.ORE, new OreConfiguration(netherrackReplaceables,
+                ModBlocks.SULFUR_ORE.get().defaultBlockState(), 6));
         register(context, OVERWORLD_JADE_KEY, Feature.ORE, new OreConfiguration(overworldJadeOres, 5));
         register(context, OVERWORLD_BAUXITE_KEY, Feature.ORE, new OreConfiguration(overworldBauxiteOres, 8));
         register(context, OVERWORLD_TUNGSTEN_KEY, Feature.ORE, new OreConfiguration(overworldTungstenOres, 5));

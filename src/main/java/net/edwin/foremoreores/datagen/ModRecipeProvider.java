@@ -48,6 +48,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 ModBlocks.RAW_LEAD_BLOCK.get());
         nineBlockStorageRecipes(consumer, RecipeCategory.BUILDING_BLOCKS, ModItems.TUNGSTEN.get(), RecipeCategory.MISC,
                 ModBlocks.TUNGSTEN_BLOCK.get());
+        nineBlockStorageRecipes(consumer, RecipeCategory.BUILDING_BLOCKS, ModItems.SULFUR.get(), RecipeCategory.MISC,
+                ModBlocks.SULFUR_BLOCK.get());
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.SODA.get())
                .requires(ModItems.ALUMINUM_INGOT.get())
                 .requires(Items.SUGAR)

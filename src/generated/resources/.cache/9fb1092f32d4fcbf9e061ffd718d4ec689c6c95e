@@ -1,4 +1,4 @@
-// 1.20.1	2023-08-12T17:55:23.078467	Recipes
+// 1.20.1	2024-02-06T17:04:52.670397	Recipes
 b1f69a5dbe2a5b3e9179acf97edfba42bb92cc1f data/foremoreores/advancements/recipes/building_blocks/aluminum_ingot.json
 14e11cd7c3c5a9935db321036ab2fc2776e4ec1f data/foremoreores/advancements/recipes/building_blocks/bauxite.json
 b6ad0ef247f4126e20c41bba7e275e80ea5382cc data/foremoreores/advancements/recipes/building_blocks/cut_lead_block.json
@@ -6,6 +6,7 @@ b6ad0ef247f4126e20c41bba7e275e80ea5382cc data/foremoreores/advancements/recipes/
 cd2203451d3ccbe0b1743b7c106acb5853abc31b data/foremoreores/advancements/recipes/building_blocks/lead_ingot.json
 a7bdc3de05be4421c97e5397b1cbbcf1cb5ff4f9 data/foremoreores/advancements/recipes/building_blocks/raw_galena.json
 5744508a6370474071c388450dfa5d7f875fa44c data/foremoreores/advancements/recipes/building_blocks/reinforced_glass.json
+79c0f368e6ef35796459672b802dcbc2f894cdf5 data/foremoreores/advancements/recipes/building_blocks/sulfur.json
 ca8e5139de3d6fde0279b1e003f3a4f580e9c1c3 data/foremoreores/advancements/recipes/building_blocks/tungsten.json
 5f4416282c13b77d7b8bd049723f3833ad69337d data/foremoreores/advancements/recipes/combat/baseball_bat.json
 e68c00c89c3aa6716cd0866d67c6bc781a27b315 data/foremoreores/advancements/recipes/combat/jade_boots.json
@@ -39,6 +40,7 @@ efae0962d2edfb1ee31ef43549fa42a73426732d data/foremoreores/advancements/recipes/
 192e1a8b88d14617cd20428a2d61410622d89461 data/foremoreores/advancements/recipes/misc/lead_block.json
 9ce390fca97ddeee6ae9670c0336a4668e97b409 data/foremoreores/advancements/recipes/misc/lead_ingot_from_smelting_raw_galena.json
 0d6edb0314cb4ff6aa08e4d41dd3aee8bbda3961 data/foremoreores/advancements/recipes/misc/raw_lead_block.json
+7e5ff578370a6f08b641ca6b0415cac9c9468e7b data/foremoreores/advancements/recipes/misc/sulfur_block.json
 7439a544d6cf2db7a4120c57513061963e626625 data/foremoreores/advancements/recipes/misc/tungsten_block.json
 188d6ab784ce490b1af0d5912baaa8c5f8519a8a data/foremoreores/advancements/recipes/tools/jade_axe.json
 57dbae57352ebbe04cfbc240bded7ec5ba092f00 data/foremoreores/advancements/recipes/tools/jade_hoe.json
@@ -86,6 +88,8 @@ e35fcbac3d75479371d557b417f5a9c1b939d2c7 data/foremoreores/recipes/lead_ingot.js
 d54806710b88bb92eaba56cdf2d7033e26e4d4d3 data/foremoreores/recipes/raw_lead_block.json
 0992398252ce09f80e966c54e03179a7b6b81ccf data/foremoreores/recipes/reinforced_glass.json
 3d01999d2e13dbe4a2f0dc95a9f5e1a57cddcdca data/foremoreores/recipes/soda.json
+7d577ee1ba62ee905fd1b92c161e0ae23871c498 data/foremoreores/recipes/sulfur.json
+5d9cdf4a24b89aa80b054d5c27d9c1b447b04853 data/foremoreores/recipes/sulfur_block.json
 24399e4527e791303ebee92b0a928fb7a467d836 data/foremoreores/recipes/tungsten.json
 14f31ba0224528d3a8a8acf330a16320200aacc1 data/foremoreores/recipes/tungsten_axe.json
 5ab92367357858f9c5e349e5190e883624b9e22e data/foremoreores/recipes/tungsten_block.json

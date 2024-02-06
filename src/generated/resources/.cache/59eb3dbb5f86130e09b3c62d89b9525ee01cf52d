@@ -1,4 +1,4 @@
-// 1.20.1	2023-08-12T17:55:23.073927	Loot Tables
+// 1.20.1	2024-02-06T17:04:52.660032	Loot Tables
 70cf34d3cd2f1ae023b139414b72db75b7d4a4cc data/foremoreores/loot_tables/blocks/aluminum_block.json
 227fa1e4011cadba9c91d6080d001d88204b6413 data/foremoreores/loot_tables/blocks/bauxite_block.json
 5752272a14c2f97a7eeb73f6de13608137f6387d data/foremoreores/loot_tables/blocks/bauxite_ore.json
@@ -11,8 +11,10 @@ b18dbc04ec3b42d244bc1c17e6fb7e4d77aed869 data/foremoreores/loot_tables/blocks/ga
 3e2cb2f6059b6d6606b80678fe956955fc5ad2a5 data/foremoreores/loot_tables/blocks/jade_block.json
 937a0e89bc0ea52219e3e25a9206fa30458cd006 data/foremoreores/loot_tables/blocks/jade_ore.json
 cb2c58f40703e7286d0f16ee7fb008fd855813e6 data/foremoreores/loot_tables/blocks/lead_block.json
-655ad32f0cac8a493f5d11ed2c969ee028a3dfdb data/foremoreores/loot_tables/blocks/nether_galena.json
+8bed8e770385780d50784580ad29c8f0d1448ec5 data/foremoreores/loot_tables/blocks/nether_galena.json
 f4e521514dae7570edb6b864fcb386fcee4a4927 data/foremoreores/loot_tables/blocks/raw_lead_block.json
 52daf4a56d6483ddbb2d16d271899f23c91dee6f data/foremoreores/loot_tables/blocks/reinforced_glass.json
+d735b9317fccbd7af2a382764339cef6eb08b450 data/foremoreores/loot_tables/blocks/sulfur_block.json
+2028c8d7164c18a7a0ecf4302210f38f340fb7f7 data/foremoreores/loot_tables/blocks/sulfur_ore.json
 7cd8adacbf5e0e480cacd95547b27dc59ad34a72 data/foremoreores/loot_tables/blocks/tungsten_block.json
 c6705f9626c10d3e9949e536eb5659eb9b423de4 data/foremoreores/loot_tables/blocks/tungsten_ore.json

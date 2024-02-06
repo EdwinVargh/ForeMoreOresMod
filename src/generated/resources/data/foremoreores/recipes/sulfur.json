@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "foremoreores:sulfur_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "foremoreores:sulfur"
+  }
+}

@@ -47,6 +47,8 @@
     "foremoreores:deepslate_galena",
     "foremoreores:cut_lead_block",
     "foremoreores:raw_lead_block",
-    "foremoreores:lead_block"
+    "foremoreores:lead_block",
+    "foremoreores:sulfur_block",
+    "foremoreores:sulfur_ore"
   ]
 }

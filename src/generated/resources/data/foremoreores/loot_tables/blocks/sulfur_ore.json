@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "foremoreores:nether_galena"
+              "name": "foremoreores:sulfur_ore"
             },
             {
               "type": "minecraft:item",
@@ -38,7 +38,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "foremoreores:raw_galena"
+              "name": "foremoreores:sulfur"
             }
           ]
         }
@@ -46,5 +46,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "foremoreores:blocks/nether_galena"
+  "random_sequence": "foremoreores:blocks/sulfur_ore"
 }

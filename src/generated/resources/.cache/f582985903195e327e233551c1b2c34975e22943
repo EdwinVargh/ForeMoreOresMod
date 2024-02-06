@@ -1,4 +1,4 @@
-// 1.20.1	2023-08-12T17:55:23.076576	Block States: foremoreores
+// 1.20.1	2024-02-06T17:04:52.663476	Block States: foremoreores
 5cc84d2b84741bdfa106f5f5755c1c9ccd2faa00 assets/foremoreores/blockstates/aluminum_block.json
 cb6b60e5db3e50f548943060291560f7f96f0526 assets/foremoreores/blockstates/bauxite_block.json
 5d1ca0b74ff1560419e2a2fcb51928472352cda8 assets/foremoreores/blockstates/bauxite_ore.json
@@ -14,6 +14,8 @@ d77b49c11f70df35195087175b118f170a62fb8c assets/foremoreores/blockstates/deepsla
 ab7c3d0eec8a14b4cd42afcca12dcfc2df4f1d99 assets/foremoreores/blockstates/nether_galena.json
 f08dbbcc54c021895e8fa56eaf7eb51e0517f1f7 assets/foremoreores/blockstates/raw_lead_block.json
 6c81d852b2b29d7b0c829412309afc695dd12e40 assets/foremoreores/blockstates/reinforced_glass.json
+a3a33e4a8ff393ddbc5763f6d03e92ba050f455f assets/foremoreores/blockstates/sulfur_block.json
+5518b240cd3c8c9bc48a7ad41f4828417a947cce assets/foremoreores/blockstates/sulfur_ore.json
 f96c0851884b7c0a724eddac6dd64a6403ff57b9 assets/foremoreores/blockstates/tungsten_block.json
 11f0a3181f37402e89c16c710af495e3964a7282 assets/foremoreores/blockstates/tungsten_ore.json
 faf11e8ac3e31b05b807b574047f6527b920b330 assets/foremoreores/models/block/aluminum_block.json
@@ -31,6 +33,8 @@ d5da3880774615828cb6afecf179bdcbd3a985a0 assets/foremoreores/models/block/lead_b
 bed73b52b90de921749af1b896cd09789168d6e9 assets/foremoreores/models/block/nether_galena.json
 313c5d439234a7052748a9b2490240762f2456e9 assets/foremoreores/models/block/raw_lead_block.json
 9feef3ae8aa6516e1e09562b2310caa3d8964d90 assets/foremoreores/models/block/reinforced_glass.json
+abec2697b649569a8e513773a344dda0b6f8b2b5 assets/foremoreores/models/block/sulfur_block.json
+ce859607cc3fec6355f5f508c9839485b5f46c04 assets/foremoreores/models/block/sulfur_ore.json
 140ee0f37f978c9635a3186115fbace4b8055cc0 assets/foremoreores/models/block/tungsten_block.json
 edf284be691739f3e0bdb03c3bef8bef181bcf8b assets/foremoreores/models/block/tungsten_ore.json
 7ff48f60787f2c7780724980645915fb98cd579c assets/foremoreores/models/item/aluminum_block.json
@@ -48,5 +52,7 @@ fcd94380cbc1ca0bc497825a80d8d2da1a944a50 assets/foremoreores/models/item/jade_bl
 eb737b89cd41c6e719d97442284b875823c7c9e5 assets/foremoreores/models/item/nether_galena.json
 98cd06d7457f7861bb25c71575f7e291fc4c0edc assets/foremoreores/models/item/raw_lead_block.json
 f8140f23880391bae218ec6a22fb0ed1ab543853 assets/foremoreores/models/item/reinforced_glass.json
+c6b209f246ddb3fc5aa9389865870006807e629e assets/foremoreores/models/item/sulfur_block.json
+b6fd9ad5adba8b35615a4865c54fbb8bc51b2c1d assets/foremoreores/models/item/sulfur_ore.json
 e211bc7bfee0755d8ee03b5c350ac214c68e3775 assets/foremoreores/models/item/tungsten_block.json
 888c447ab6fe9ff72ff60d4f173d3483540620f9 assets/foremoreores/models/item/tungsten_ore.json

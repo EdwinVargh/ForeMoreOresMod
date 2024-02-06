@@ -32,6 +32,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.RAW_LEAD_BLOCK.get());
         this.dropSelf(ModBlocks.CUT_LEAD_BLOCK.get());
         this.dropSelf(ModBlocks.TUNGSTEN_BLOCK.get());
+        this.dropSelf(ModBlocks.SULFUR_BLOCK.get());
 
         this.add(ModBlocks.BAUXITE_ORE.get(),
                 (block) -> createOreDrop(ModBlocks.BAUXITE_ORE.get(), ModItems.BAUXITE.get()));
@@ -46,7 +47,9 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.REINFORCED_GLASS.get(),
                 (block) -> createSilkTouchOnlyTable(ModBlocks.REINFORCED_GLASS.get()));
         this.add(ModBlocks.NETHER_GALENA.get(),
-                (block) -> createOreDrop(ModBlocks.DEEPSLATE_GALENA.get(), ModItems.RAW_GALENA.get()));
+                (block) -> createOreDrop(ModBlocks.NETHER_GALENA.get(), ModItems.RAW_GALENA.get()));
+        this.add(ModBlocks.SULFUR_ORE.get(),
+                (block) -> createOreDrop(ModBlocks.SULFUR_ORE.get(), ModItems.SULFUR.get()));
         this.add(ModBlocks.DEEPSLATE_JADE_ORE.get(),
                 (block) -> createOreDrop(ModBlocks.DEEPSLATE_JADE_ORE.get(), ModItems.JADE.get()));
         this.add(ModBlocks.TUNGSTEN_ORE.get(),

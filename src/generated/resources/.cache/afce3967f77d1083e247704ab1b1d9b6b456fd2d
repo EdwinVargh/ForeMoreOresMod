@@ -1,4 +1,4 @@
-// 1.20.1	2023-11-20T08:51:16.354274	Item Models: foremoreores
+// 1.20.1	2024-02-06T17:04:52.648844	Item Models: foremoreores
 c0fe8ed9fb5f1e31e22a1559597ec27e7d357d82 assets/foremoreores/models/item/aluminum_ingot.json
 26ebb5d8dcbdf0fe69eb0a270d0aff6f47f95890 assets/foremoreores/models/item/baseball_bat.json
 d035679bbd223f60e74810b35da6ffd0ec4157fa assets/foremoreores/models/item/bauxite.json
@@ -68,6 +68,7 @@ f7f220dad06cba0f9542d30d22b872c32cd7a7cc assets/foremoreores/models/item/jade_sh
 fe5d0420c5432d7f025bc667d35da7ee257a56cc assets/foremoreores/models/item/lead_ingot.json
 ea9c82acb0c3414130341bb190e50fb32dcb6fbd assets/foremoreores/models/item/raw_galena.json
 6f13a0b7f12b0e6783597f3610f2a418c94c41c1 assets/foremoreores/models/item/soda.json
+bd34dbafa4dc709db558b4ae76e34855aefad987 assets/foremoreores/models/item/sulfur.json
 a60b417732921cb465016f4e4aa6d9585975d361 assets/foremoreores/models/item/tungsten.json
 7ddbdc0b524c9fc93f2272a6e8548144e00237a4 assets/foremoreores/models/item/tungsten_axe.json
 c5543e511f5528198e3f9daf7443b2b7785401c6 assets/foremoreores/models/item/tungsten_boots.json

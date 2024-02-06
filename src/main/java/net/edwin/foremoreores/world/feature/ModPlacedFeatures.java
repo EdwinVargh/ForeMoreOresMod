@@ -19,6 +19,7 @@ public class ModPlacedFeatures {
 
     public static final ResourceKey<PlacedFeature> GALENA_PLACED_KEY = createKey("galena_placed");
     public static final ResourceKey<PlacedFeature> NETHER_GALENA_PLACED_KEY = createKey("nether_galena_placed");
+    public static final ResourceKey<PlacedFeature> NETHER_SULFUR_PLACED_KEY = createKey("nether_sulfur_placed");
     public static final ResourceKey<PlacedFeature> JADE_PLACED_KEY = createKey("jade_placed");
     public static final ResourceKey<PlacedFeature> BAUXITE_PLACED_KEY = createKey("bauxite_placed");
     public static final ResourceKey<PlacedFeature> TUNGSTEN_PLACED_KEY = createKey("tungsten_placed");
@@ -30,6 +31,9 @@ public class ModPlacedFeatures {
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-60), VerticalAnchor.absolute(50))));
         register(context, NETHER_GALENA_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.NETHER_GALENA_KEY),
                 ModOrePlacements.commonOrePlacement(6, // veins per chunk
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(20), VerticalAnchor.absolute(104))));
+        register(context, NETHER_SULFUR_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.NETHER_SULFUR_KEY),
+                ModOrePlacements.commonOrePlacement(4, // veins per chunk
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(20), VerticalAnchor.absolute(104))));
         register(context, JADE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_JADE_KEY),
                 ModOrePlacements.commonOrePlacement(5, // veins per chunk

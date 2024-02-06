@@ -43,6 +43,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.JADE);
         simpleItem(ModItems.LEAD_INGOT);
         simpleItem(ModItems.RAW_GALENA);
+        simpleItem(ModItems.SULFUR);
         handheldItem(ModItems.JADE_SWORD);
         handheldItem(ModItems.JADE_SHOVEL);
         handheldItem(ModItems.JADE_AXE);

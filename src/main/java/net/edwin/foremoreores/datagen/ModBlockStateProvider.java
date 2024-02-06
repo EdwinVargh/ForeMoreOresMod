@@ -33,6 +33,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.DEEPSLATE_TUNGSTEN_ORE);
         blockWithItem(ModBlocks.TUNGSTEN_BLOCK);
         blockWithItem(ModBlocks.REINFORCED_GLASS);
+        blockWithItem(ModBlocks.SULFUR_BLOCK);
+        blockWithItem(ModBlocks.SULFUR_ORE);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
