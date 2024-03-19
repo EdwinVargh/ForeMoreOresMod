@@ -78,6 +78,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.CANNED_BERRIES);
         simpleItem(ModItems.CANNED_CARROTS);
         simpleItem(ModItems.SODA);
+        simpleItem(ModItems.BASEBALL);
+        simpleItem(ModItems.DYNAMITE);
     }
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),

@@ -1,4 +1,4 @@
-// 1.20.1	2024-02-06T17:04:52.670397	Recipes
+// 1.20.1	2024-03-11T18:21:49.03183	Recipes
 b1f69a5dbe2a5b3e9179acf97edfba42bb92cc1f data/foremoreores/advancements/recipes/building_blocks/aluminum_ingot.json
 14e11cd7c3c5a9935db321036ab2fc2776e4ec1f data/foremoreores/advancements/recipes/building_blocks/bauxite.json
 b6ad0ef247f4126e20c41bba7e275e80ea5382cc data/foremoreores/advancements/recipes/building_blocks/cut_lead_block.json
@@ -35,6 +35,7 @@ bc73c111cdf57ad1d4ce4207306def8d5ade95e6 data/foremoreores/advancements/recipes/
 99285edc04e85001eb5fbc4f6e2ccfe347011b47 data/foremoreores/advancements/recipes/food/soda.json
 b1c29b7b56c11be9a69356c23a346e34ccf01518 data/foremoreores/advancements/recipes/misc/aluminum_block.json
 4b3648a38b9594e7485e5c4d184529d224d8e913 data/foremoreores/advancements/recipes/misc/aluminum_ingot_from_smelting_bauxite.json
+5b578d565cff35477d69406188e401b919b5f54f data/foremoreores/advancements/recipes/misc/baseball.json
 efae0962d2edfb1ee31ef43549fa42a73426732d data/foremoreores/advancements/recipes/misc/bauxite_block.json
 875c1bbc73c152d60a36ecff34d6de62bad1eaa4 data/foremoreores/advancements/recipes/misc/jade_block.json
 192e1a8b88d14617cd20428a2d61410622d89461 data/foremoreores/advancements/recipes/misc/lead_block.json
@@ -42,6 +43,7 @@ efae0962d2edfb1ee31ef43549fa42a73426732d data/foremoreores/advancements/recipes/
 0d6edb0314cb4ff6aa08e4d41dd3aee8bbda3961 data/foremoreores/advancements/recipes/misc/raw_lead_block.json
 7e5ff578370a6f08b641ca6b0415cac9c9468e7b data/foremoreores/advancements/recipes/misc/sulfur_block.json
 7439a544d6cf2db7a4120c57513061963e626625 data/foremoreores/advancements/recipes/misc/tungsten_block.json
+514d6beae5c20a6658db3e5e9cd6eb5c6448d9d0 data/foremoreores/advancements/recipes/tools/dynamite.json
 188d6ab784ce490b1af0d5912baaa8c5f8519a8a data/foremoreores/advancements/recipes/tools/jade_axe.json
 57dbae57352ebbe04cfbc240bded7ec5ba092f00 data/foremoreores/advancements/recipes/tools/jade_hoe.json
 5151744cb6bfc625297ea3fc0f2edf88afdc0619 data/foremoreores/advancements/recipes/tools/jade_pickaxe.json
@@ -53,6 +55,7 @@ efae0962d2edfb1ee31ef43549fa42a73426732d data/foremoreores/advancements/recipes/
 90bcb623308b9899d297b93111fc6e12549cfd0b data/foremoreores/recipes/aluminum_block.json
 61dc86629cf14cc4e7df51f4e2357381b86e26ff data/foremoreores/recipes/aluminum_ingot.json
 f864b008abacb0a0c9224b2d5f7be9564f8f04ce data/foremoreores/recipes/aluminum_ingot_from_smelting_bauxite.json
+12950b8e8fa67af2be59eebd97245f03080f05e7 data/foremoreores/recipes/baseball.json
 e9683def976d4f65659d22f24bed1e28fd97c6ab data/foremoreores/recipes/baseball_bat.json
 db68a0a0134993eba1f44a2cf4b1b7af58d2f043 data/foremoreores/recipes/bauxite.json
 82c056e9b8ee25cc42334d072a49bfcd56a8f900 data/foremoreores/recipes/bauxite_block.json
@@ -70,6 +73,7 @@ f51f5c8d43dec2cfa0cf80be9c04b033a74fcb77 data/foremoreores/recipes/canned_potato
 46bbc1d1e141b8a4b8cb7a5381ef67a80c4428b7 data/foremoreores/recipes/canned_rotten_flesh.json
 52ff3a3d4f86c97fcbad85fb5deeb460982a68ab data/foremoreores/recipes/canned_salmon.json
 8a976fb48de80e86398d3a31ab727f02118a48bb data/foremoreores/recipes/cut_lead_block.json
+3aa323a8742e9f0011c4a2713e3ffa456398fbfb data/foremoreores/recipes/dynamite.json
 1eaa6ff084985a7be411818f5c683a8ffba29784 data/foremoreores/recipes/jade.json
 7f1b6c8ab9f261874af37d09e94dc0b60edb0bb4 data/foremoreores/recipes/jade_axe.json
 c344d7fb63b57d759b64b3ee3c8ea66c86dee92b data/foremoreores/recipes/jade_block.json

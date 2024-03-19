@@ -1,9 +1,8 @@
 package net.edwin.foremoreores.item;
 
 import net.edwin.foremoreores.ForeMoreOres;
-import net.edwin.foremoreores.item.custom.BaseballBat;
-import net.edwin.foremoreores.item.custom.CannedBread;
-import net.edwin.foremoreores.item.custom.DrinkItem;
+import net.edwin.foremoreores.entity.custom.BaseballProjectile;
+import net.edwin.foremoreores.item.custom.*;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -51,7 +50,10 @@ public class ModItems {
             () -> new AxeItem(ModTiers.TUNGSTEN,4,0f,new Item.Properties()));
     public static final RegistryObject<Item> BASEBALL_BAT = ITEMS.register("baseball_bat",
             () -> new BaseballBat(ModTiers.ALUMINUM, 1, 3f, new Item.Properties()));
-
+    public static final RegistryObject<Item> BASEBALL = ITEMS.register("baseball",
+            () -> new Baseball(new Item.Properties()));
+    public static final RegistryObject<Item> DYNAMITE = ITEMS.register("dynamite",
+            () -> new Dynamite(new Item.Properties()));
     public static final RegistryObject<Item> JADE_HELMET = ITEMS.register("jade_helmet",
             () -> new ArmorItem(ModArmorMaterials.JADE, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> JADE_CHESTPLATE = ITEMS.register("jade_chestplate",

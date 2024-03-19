@@ -1,5 +1,6 @@
-// 1.20.1	2024-02-06T17:04:52.648844	Item Models: foremoreores
+// 1.20.1	2024-03-11T18:21:49.02346	Item Models: foremoreores
 c0fe8ed9fb5f1e31e22a1559597ec27e7d357d82 assets/foremoreores/models/item/aluminum_ingot.json
+fcde5f2ce03d14144992cf842cb4199cbc1a9a8f assets/foremoreores/models/item/baseball.json
 26ebb5d8dcbdf0fe69eb0a270d0aff6f47f95890 assets/foremoreores/models/item/baseball_bat.json
 d035679bbd223f60e74810b35da6ffd0ec4157fa assets/foremoreores/models/item/bauxite.json
 6e466c9dbcb7f3390b40fd27a85d065a1a861427 assets/foremoreores/models/item/canned_apples.json
@@ -15,6 +16,7 @@ c9efcbc097cbc6c530741b3f252c4e47c7d1e1f1 assets/foremoreores/models/item/canned_
 9fca5cc005f73a767768c86db3a02e238210756f assets/foremoreores/models/item/canned_potatoes.json
 cdfb3ac73f85df32210c84292a5473b92d762db9 assets/foremoreores/models/item/canned_rotten_flesh.json
 9851189e6d2aa81674b424af7568ef3f10848a8e assets/foremoreores/models/item/canned_salmon.json
+4d6ec61075ac6ae72a036d2e4e8ba69158ceed65 assets/foremoreores/models/item/dynamite.json
 1a72b411bfdd265e4bfb8c0568acda0e6428d8da assets/foremoreores/models/item/jade.json
 ac76516ee9427397c7b3d38b0d23b6b2463a1ce0 assets/foremoreores/models/item/jade_axe.json
 ec0a80bd409c4bc5ab1286669f427b255a4ae66f assets/foremoreores/models/item/jade_boots.json

@@ -2,9 +2,13 @@ package net.edwin.foremoreores;
 
 import com.mojang.logging.LogUtils;
 import net.edwin.foremoreores.block.ModBlocks;
+import net.edwin.foremoreores.entity.ModEntities;
+import net.edwin.foremoreores.entity.custom.BaseballProjectile;
 import net.edwin.foremoreores.item.ModItems;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.entity.*;
+import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -16,6 +20,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -31,6 +36,7 @@ public class ForeMoreOres
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModEntities.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
         modEventBus.addListener(this::clientSetup);
         MinecraftForge.EVENT_BUS.register(this);
@@ -50,6 +56,7 @@ public class ForeMoreOres
             event.accept(ModItems.BAUXITE);
             event.accept(ModItems.JADE);
             event.accept(ModItems.TUNGSTEN);
+            event.accept(ModItems.SULFUR);
             event.accept(ModBlocks.DEEPSLATE_GALENA);
             event.accept(ModBlocks.NETHER_GALENA);
             event.accept(ModBlocks.GALENA);
@@ -59,6 +66,8 @@ public class ForeMoreOres
             event.accept(ModBlocks.DEEPSLATE_TUNGSTEN_ORE);
             event.accept(ModBlocks.BAUXITE_ORE);
             event.accept(ModBlocks.DEEPSLATE_BAUXITE_ORE);
+            event.accept(ModBlocks.SULFUR_ORE);
+            event.accept(ModItems.DYNAMITE);
             event.accept(ModItems.JADE_AXE);
             event.accept(ModItems.JADE_HOE);
             event.accept(ModItems.JADE_SHOVEL);
@@ -69,6 +78,7 @@ public class ForeMoreOres
             event.accept(ModItems.TUNGSTEN_PICKAXE);
             event.accept(ModItems.JADE_SWORD);
             event.accept(ModItems.BASEBALL_BAT);
+            event.accept(ModItems.BASEBALL);
             event.accept(ModItems.JADE_HELMET);
             event.accept(ModItems.JADE_CHESTPLATE);
             event.accept(ModItems.JADE_LEGGINGS);
@@ -102,6 +112,7 @@ public class ForeMoreOres
             event.accept(ModItems.LEAD_INGOT);
             event.accept(ModItems.JADE);
             event.accept(ModItems.TUNGSTEN);
+            event.accept(ModItems.SULFUR);
             event.accept(ModBlocks.REINFORCED_GLASS);
         }
 
@@ -112,6 +123,7 @@ public class ForeMoreOres
             event.accept(ModBlocks.LEAD_BLOCK);
             event.accept(ModBlocks.RAW_LEAD_BLOCK);
             event.accept(ModBlocks.TUNGSTEN_BLOCK);
+            event.accept(ModBlocks.SULFUR_BLOCK);
             event.accept(ModBlocks.CUT_LEAD_BLOCK);
             event.accept(ModBlocks.REINFORCED_GLASS);
         }
@@ -124,6 +136,7 @@ public class ForeMoreOres
             event.accept(ModItems.TUNGSTEN_HOE);
             event.accept(ModItems.TUNGSTEN_SHOVEL);
             event.accept(ModItems.TUNGSTEN_PICKAXE);
+            event.accept(ModItems.DYNAMITE);
         }
         if(event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItems.JADE_SWORD);
@@ -137,6 +150,7 @@ public class ForeMoreOres
             event.accept(ModItems.TUNGSTEN_LEGGINGS);
             event.accept(ModItems.TUNGSTEN_BOOTS);
             event.accept(ModItems.BASEBALL_BAT);
+            event.accept(ModItems.BASEBALL);
         }
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.CANNED_APPLES);
@@ -174,7 +188,9 @@ public class ForeMoreOres
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-
+            EntityRenderers.register(ModEntities.BASEBALL_PROJECTILE.get(), ThrownItemRenderer::new);
+            EntityRenderers.register(ModEntities.DYNAMITE_PROJECTILE.get(), ThrownItemRenderer::new);
+            //
         }
     }
 }

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "S": {
+      "item": "foremoreores:sulfur"
+    }
+  },
+  "pattern": [
+    "   ",
+    " P ",
+    " S "
+  ],
+  "result": {
+    "item": "foremoreores:dynamite"
+  },
+  "show_notification": true
+}

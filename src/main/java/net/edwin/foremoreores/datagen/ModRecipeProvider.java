@@ -134,6 +134,21 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_aluminum", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ModItems.ALUMINUM_INGOT.get()).build()))
                 .save(consumer);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.BASEBALL.get())
+                .requires(Items.LEATHER)
+                .requires(Items.WHITE_WOOL)
+                .unlockedBy("has_leather", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.LEATHER).build()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.DYNAMITE.get())
+                .define('S', ModItems.SULFUR.get())
+                .define('P', Items.PAPER)
+                .pattern("   ")
+                .pattern(" P ")
+                .pattern(" S ")
+                .unlockedBy("has_sulfur", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.SULFUR.get()).build()))
+                .save(consumer);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.JADE_PICKAXE.get())
                  .define('J', ModItems.JADE.get())
