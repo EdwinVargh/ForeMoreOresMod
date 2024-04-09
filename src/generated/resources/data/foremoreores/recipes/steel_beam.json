@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": {
+      "item": "foremoreores:steel_ingot"
+    }
+  },
+  "pattern": [
+    "SSS",
+    " S ",
+    "SSS"
+  ],
+  "result": {
+    "item": "foremoreores:steel_beam"
+  },
+  "show_notification": true
+}

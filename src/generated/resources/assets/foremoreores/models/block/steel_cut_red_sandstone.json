@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "foremoreores:block/steel_cut_red_sandstone",
+    "end": "foremoreores:block/sandstone_red_top"
+  }
+}

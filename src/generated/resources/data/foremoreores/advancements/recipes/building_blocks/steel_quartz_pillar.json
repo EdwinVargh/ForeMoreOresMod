@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_steel_beam": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "foremoreores:steel_beam"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "foremoreores:steel_quartz_pillar"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_steel_beam",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "foremoreores:steel_quartz_pillar"
+    ]
+  },
+  "sends_telemetry_event": false
+}

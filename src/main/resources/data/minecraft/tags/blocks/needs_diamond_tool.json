@@ -2,6 +2,7 @@
   "values": [
     "minecraft:netherite_block",
     "minecraft:respawn_anchor",
-    "minecraft:ancient_debris"
+    "minecraft:ancient_debris",
+    "foremoreores:steel_beam"
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "foremoreores:steel_beam"
+    },
+    {
+      "item": "minecraft:mud_bricks"
+    }
+  ],
+  "result": {
+    "item": "foremoreores:steel_mud_bricks"
+  }
+}

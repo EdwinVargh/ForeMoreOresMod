@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "foremoreores:steel_beam"
+    },
+    {
+      "item": "minecraft:purpur_block"
+    }
+  ],
+  "result": {
+    "item": "foremoreores:steel_purpur_block"
+  }
+}

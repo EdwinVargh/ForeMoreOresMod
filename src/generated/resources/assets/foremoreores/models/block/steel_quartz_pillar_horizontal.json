@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "foremoreores:block/steel_quartz_pillar_top",
+    "side": "foremoreores:block/steel_quartz_pillar"
+  }
+}

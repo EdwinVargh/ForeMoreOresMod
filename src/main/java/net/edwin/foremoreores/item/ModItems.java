@@ -27,6 +27,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SULFUR = ITEMS.register("sulfur",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> JADE_SWORD = ITEMS.register("jade_sword",
             () -> new SwordItem(ModTiers.JADE, 2, 3f, new Item.Properties()));
@@ -70,6 +72,9 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> TUNGSTEN_BOOTS = ITEMS.register("tungsten_boots",
             () -> new ArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.BOOTS, new Item.Properties()));
+    public static final RegistryObject<Item> FERTILIZER = ITEMS.register("fertilizer",
+            () -> new BoneMealItem(new Item.Properties()));
+
 
     public static final RegistryObject<Item> CANNED_BEEF = ITEMS.register("canned_beef",
             () -> new Item(new Item.Properties().food(ModFoods.CANNED_BEEF)));

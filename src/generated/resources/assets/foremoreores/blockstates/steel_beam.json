@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "foremoreores:block/steel_beam_vertical",
+      "x": 180
+    },
+    "facing=north": {
+      "model": "foremoreores:block/steel_beam"
+    },
+    "facing=south": {
+      "model": "foremoreores:block/steel_beam",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "foremoreores:block/steel_beam",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "foremoreores:block/steel_beam_vertical"
+    },
+    "facing=east": {
+      "model": "foremoreores:block/steel_beam",
+      "y": 90
+    }
+  }
+}

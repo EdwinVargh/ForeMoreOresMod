@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "foremoreores:block/steel_purpur_pillar_top",
+    "side": "foremoreores:block/steel_purpur_pillar"
+  }
+}
