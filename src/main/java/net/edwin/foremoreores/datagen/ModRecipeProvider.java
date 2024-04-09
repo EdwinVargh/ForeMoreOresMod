@@ -35,6 +35,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 ModItems.LEAD_INGOT.get(), 0.7f, 100, "lead_blasting");
         oreBlasting(consumer, List.of(ModItems.BAUXITE.get()), RecipeCategory.MISC,
                 ModItems.ALUMINUM_INGOT.get(), 0.7f, 100, "aluminum_blasting");
+        oreBlasting(consumer, List.of(Items.IRON_INGOT), RecipeCategory.MISC,
+                ModItems.STEEL_INGOT.get(), 0.7f, 150, "steel_blasting");
 
         nineBlockStorageRecipes(consumer, RecipeCategory.BUILDING_BLOCKS, ModItems.JADE.get(), RecipeCategory.MISC,
                 ModBlocks.JADE_BLOCK.get());
@@ -50,96 +52,44 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 ModBlocks.TUNGSTEN_BLOCK.get());
         nineBlockStorageRecipes(consumer, RecipeCategory.BUILDING_BLOCKS, ModItems.SULFUR.get(), RecipeCategory.MISC,
                 ModBlocks.SULFUR_BLOCK.get());
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.SODA.get())
-               .requires(ModItems.ALUMINUM_INGOT.get())
-                .requires(Items.SUGAR)
-                .unlockedBy("has_aluminum", inventoryTrigger(ItemPredicate.Builder.item()
-                        .of(ModItems.ALUMINUM_INGOT.get()).build()))
-                .save(consumer);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CANNED_BEEF.get())
-                .requires(ModItems.ALUMINUM_INGOT.get())
-                .requires(Items.COOKED_BEEF)
-                .unlockedBy("has_aluminum", inventoryTrigger(ItemPredicate.Builder.item()
-                        .of(ModItems.ALUMINUM_INGOT.get()).build()))
-                .save(consumer);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CANNED_BERRIES.get())
-                .requires(ModItems.ALUMINUM_INGOT.get())
-                .requires(Items.SWEET_BERRIES)
-                .unlockedBy("has_aluminum", inventoryTrigger(ItemPredicate.Builder.item()
-                        .of(ModItems.ALUMINUM_INGOT.get()).build()))
-                .save(consumer);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CANNED_BEETROOT_SOUP.get())
-                .requires(ModItems.ALUMINUM_INGOT.get())
-                .requires(Items.BEETROOT_SOUP)
-                .unlockedBy("has_aluminum", inventoryTrigger(ItemPredicate.Builder.item()
-                        .of(ModItems.ALUMINUM_INGOT.get()).build()))
-                .save(consumer);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CANNED_BREAD.get())
-                .requires(ModItems.ALUMINUM_INGOT.get())
-                .requires(Items.BREAD)
-                .unlockedBy("has_aluminum", inventoryTrigger(ItemPredicate.Builder.item()
-                        .of(ModItems.ALUMINUM_INGOT.get()).build()))
-                .save(consumer);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CANNED_CARROTS.get())
-                .requires(ModItems.ALUMINUM_INGOT.get())
-                .requires(Items.CARROT)
-                .unlockedBy("has_aluminum", inventoryTrigger(ItemPredicate.Builder.item()
-                        .of(ModItems.ALUMINUM_INGOT.get()).build()))
-                .save(consumer);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CANNED_CHICKEN.get())
-                .requires(ModItems.ALUMINUM_INGOT.get())
-                .requires(Items.COOKED_CHICKEN)
-                .unlockedBy("has_aluminum", inventoryTrigger(ItemPredicate.Builder.item()
-                        .of(ModItems.ALUMINUM_INGOT.get()).build()))
-                .save(consumer);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CANNED_CHORUS_FRUIT.get())
-                .requires(ModItems.ALUMINUM_INGOT.get())
-                .requires(Items.CHORUS_FRUIT)
-                .unlockedBy("has_aluminum", inventoryTrigger(ItemPredicate.Builder.item()
-                        .of(ModItems.ALUMINUM_INGOT.get()).build()))
-                .save(consumer);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CANNED_APPLES.get())
-                .requires(ModItems.ALUMINUM_INGOT.get())
-                .requires(Items.APPLE)
-                .unlockedBy("has_aluminum", inventoryTrigger(ItemPredicate.Builder.item()
-                        .of(ModItems.ALUMINUM_INGOT.get()).build()))
-                .save(consumer);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CANNED_POTATOES.get())
-                .requires(ModItems.ALUMINUM_INGOT.get())
-                .requires(Items.BAKED_POTATO)
-                .unlockedBy("has_aluminum", inventoryTrigger(ItemPredicate.Builder.item()
-                        .of(ModItems.ALUMINUM_INGOT.get()).build()))
-                .save(consumer);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CANNED_COD.get())
-                .requires(ModItems.ALUMINUM_INGOT.get())
-                .requires(Items.COOKED_COD)
-                .unlockedBy("has_aluminum", inventoryTrigger(ItemPredicate.Builder.item()
-                        .of(ModItems.ALUMINUM_INGOT.get()).build()))
-                .save(consumer);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CANNED_SALMON.get())
-                .requires(ModItems.ALUMINUM_INGOT.get())
-                .requires(Items.COOKED_SALMON)
-                .unlockedBy("has_aluminum", inventoryTrigger(ItemPredicate.Builder.item()
-                        .of(ModItems.ALUMINUM_INGOT.get()).build()))
-                .save(consumer);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CANNED_MELON.get())
-                .requires(ModItems.ALUMINUM_INGOT.get())
-                .requires(Items.MELON)
-                .unlockedBy("has_aluminum", inventoryTrigger(ItemPredicate.Builder.item()
-                        .of(ModItems.ALUMINUM_INGOT.get()).build()))
-                .save(consumer);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.CANNED_ROTTEN_FLESH.get())
-                .requires(ModItems.ALUMINUM_INGOT.get())
-                .requires(Items.ROTTEN_FLESH)
-                .unlockedBy("has_aluminum", inventoryTrigger(ItemPredicate.Builder.item()
-                        .of(ModItems.ALUMINUM_INGOT.get()).build()))
-                .save(consumer);
+        cannedFood(consumer,ModItems.SODA.get(),Items.SUGAR);
+        cannedFood(consumer,ModItems.CANNED_APPLES.get(),Items.APPLE);
+        cannedFood(consumer,ModItems.CANNED_BEEF.get(),Items.COOKED_BEEF);
+        cannedFood(consumer,ModItems.CANNED_BERRIES.get(),Items.SWEET_BERRIES);
+        cannedFood(consumer,ModItems.CANNED_BEETROOT_SOUP.get(),Items.BEETROOT_SOUP);
+        cannedFood(consumer,ModItems.CANNED_BREAD.get(),Items.BREAD);
+        cannedFood(consumer,ModItems.CANNED_CARROTS.get(),Items.CARROT);
+        cannedFood(consumer,ModItems.CANNED_CHICKEN.get(),Items.COOKED_CHICKEN);
+        cannedFood(consumer,ModItems.CANNED_CHORUS_FRUIT.get(),Items.CHORUS_FRUIT);
+        cannedFood(consumer,ModItems.CANNED_COD.get(),Items.COOKED_COD);
+        cannedFood(consumer,ModItems.CANNED_MELON.get(),Items.MELON);
+        cannedFood(consumer,ModItems.CANNED_POTATOES.get(),Items.BAKED_POTATO);
+        cannedFood(consumer,ModItems.CANNED_ROTTEN_FLESH.get(),Items.ROTTEN_FLESH);
+        cannedFood(consumer,ModItems.CANNED_SALMON.get(),Items.COOKED_SALMON);
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.BASEBALL.get())
                 .requires(Items.LEATHER)
                 .requires(Items.WHITE_WOOL)
                 .unlockedBy("has_leather", inventoryTrigger(ItemPredicate.Builder.item()
-                        .of(Items.LEATHER).build()))
+                        .of(ModBlocks.STEEL_BEAM.get()).build()))
                 .save(consumer);
+        steelReinforcement(consumer,ModBlocks.STEEL_BRICKS.get(),Blocks.BRICKS);
+        steelReinforcement(consumer,ModBlocks.STEEL_STONE_BRICKS.get(),Blocks.STONE_BRICKS);
+        steelReinforcement(consumer,ModBlocks.STEEL_NETHER_BRICKS.get(),Blocks.NETHER_BRICKS);
+        steelReinforcement(consumer,ModBlocks.STEEL_RED_NETHER_BRICKS.get(),Blocks.RED_NETHER_BRICKS);
+        steelReinforcement(consumer,ModBlocks.STEEL_END_STONE_BRICKS.get(),Blocks.END_STONE_BRICKS);
+        steelReinforcement(consumer,ModBlocks.STEEL_PURPUR.get(),Blocks.PURPUR_BLOCK);
+        steelReinforcement(consumer,ModBlocks.STEEL_PURPUR_PILLAR.get(),Blocks.PURPUR_PILLAR);
+        steelReinforcement(consumer,ModBlocks.STEEL_PRISMARINE_BRICKS.get(),Blocks.PRISMARINE_BRICKS);
+        steelReinforcement(consumer,ModBlocks.STEEL_DARK_PRISMARINE.get(),Blocks.DARK_PRISMARINE);
+        steelReinforcement(consumer,ModBlocks.STEEL_QUARTZ_BRICKS.get(),Blocks.QUARTZ_BRICKS);
+        steelReinforcement(consumer,ModBlocks.STEEL_QUARTZ_PILLAR.get(),Blocks.QUARTZ_PILLAR);
+        steelReinforcement(consumer,ModBlocks.STEEL_DEEPSLATE_BRICKS.get(),Blocks.DEEPSLATE_BRICKS);
+        steelReinforcement(consumer,ModBlocks.STEEL_DEEPSLATE_TILES.get(),Blocks.DEEPSLATE_TILES);
+        steelReinforcement(consumer,ModBlocks.STEEL_MUD_BRICKS.get(),Blocks.MUD_BRICKS);
+        steelReinforcement(consumer,ModBlocks.STEEL_BLACKSTONE_BRICKS.get(),Blocks.POLISHED_BLACKSTONE_BRICKS);
+        steelReinforcement(consumer,ModBlocks.STEEL_CUT_RED_SANDSTONE.get(),Blocks.CUT_RED_SANDSTONE);
+        steelReinforcement(consumer,ModBlocks.STEEL_CUT_SANDSTONE.get(),Blocks.CUT_SANDSTONE);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.DYNAMITE.get())
                 .define('S', ModItems.SULFUR.get())
                 .define('P', Items.PAPER)
@@ -149,7 +99,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_sulfur", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ModItems.SULFUR.get()).build()))
                 .save(consumer);
-
         ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.JADE_PICKAXE.get())
                  .define('J', ModItems.JADE.get())
                  .define('I', Items.STICK)
@@ -329,6 +278,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_lead", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ModItems.LEAD_INGOT.get()).build()))
                 .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STEEL_BEAM.get())
+                .define('S', ModItems.STEEL_INGOT.get())
+                .pattern("SSS")
+                .pattern(" S ")
+                .pattern("SSS")
+                .unlockedBy("has_steel", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.STEEL_INGOT.get()).build()))
+                .save(consumer);
 
     }
     protected static void oreSmelting(Consumer<FinishedRecipe> p_250654_, List<ItemLike> p_250172_, RecipeCategory p_250588_, ItemLike p_251868_, float p_250789_, int p_252144_, String p_251687_) {
@@ -363,5 +320,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     }
     protected static void stonecutterResultFromBase(Consumer<FinishedRecipe> pFinishedRecipeConsumer, RecipeCategory pCategory, ItemLike pResult, ItemLike pMaterial, int pResultCount) {
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(pMaterial), pCategory, pResult, pResultCount).unlockedBy(getHasName(pMaterial), has(pMaterial)).save(pFinishedRecipeConsumer, getConversionRecipeName(pResult, pMaterial) + "_stonecutting");
+    }
+    protected static void steelReinforcement(Consumer<FinishedRecipe> pFinishedRecipeConsumer, ItemLike pResult, ItemLike pMaterial) {
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, pResult).requires(ModBlocks.STEEL_BEAM.get()).requires(pMaterial).unlockedBy(getHasName(ModBlocks.STEEL_BEAM.get()), has(ModBlocks.STEEL_BEAM.get())).save(pFinishedRecipeConsumer);
+    }
+    protected static void cannedFood(Consumer<FinishedRecipe> pFinishedRecipeConsumer, ItemLike pResult, ItemLike pMaterial) {
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, pResult).requires(ModItems.ALUMINUM_INGOT.get()).requires(pMaterial).unlockedBy(getHasName(ModItems.ALUMINUM_INGOT.get()), has(ModItems.ALUMINUM_INGOT.get())).save(pFinishedRecipeConsumer);
     }
 }
