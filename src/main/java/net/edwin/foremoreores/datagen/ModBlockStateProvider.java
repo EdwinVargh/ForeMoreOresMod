@@ -35,6 +35,23 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.REINFORCED_GLASS);
         blockWithItem(ModBlocks.SULFUR_BLOCK);
         blockWithItem(ModBlocks.SULFUR_ORE);
+        blockWithItem(ModBlocks.STEEL_BRICKS);
+        blockWithItem(ModBlocks.STEEL_STONE_BRICKS);
+        blockWithItem(ModBlocks.STEEL_NETHER_BRICKS);
+        blockWithItem(ModBlocks.STEEL_RED_NETHER_BRICKS);
+        blockWithItem(ModBlocks.STEEL_END_STONE_BRICKS);
+        blockWithItem(ModBlocks.STEEL_PURPUR);
+        axisBlock(ModBlocks.STEEL_PURPUR_PILLAR, modLoc("block/steel_purpur_pillar"), modLoc("block/steel_purpur_pillar_top"));
+        blockWithItem(ModBlocks.STEEL_PRISMARINE_BRICKS);
+        blockWithItem(ModBlocks.STEEL_DARK_PRISMARINE);
+        blockWithItem(ModBlocks.STEEL_QUARTZ_BRICKS);
+        axisBlock(ModBlocks.STEEL_QUARTZ_PILLAR, modLoc("block/steel_quartz_pillar"), modLoc("block/steel_quartz_pillar_top"));
+        blockWithItem(ModBlocks.STEEL_DEEPSLATE_BRICKS);
+        blockWithItem(ModBlocks.STEEL_DEEPSLATE_TILES);
+        blockWithItem(ModBlocks.STEEL_MUD_BRICKS);
+        blockWithItem(ModBlocks.STEEL_BLACKSTONE_BRICKS);
+        blockWithItem(ModBlocks.STEEL_CUT_SANDSTONE);
+        blockWithItem(ModBlocks.STEEL_CUT_RED_SANDSTONE);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
