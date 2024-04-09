@@ -27,6 +27,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SULFUR = ITEMS.register("sulfur",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> JADE_SWORD = ITEMS.register("jade_sword",
             () -> new SwordItem(ModTiers.JADE, 2, 3f, new Item.Properties()));
