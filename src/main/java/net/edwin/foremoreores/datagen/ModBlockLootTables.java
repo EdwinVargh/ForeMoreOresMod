@@ -74,6 +74,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 (block) -> createOreDrop(ModBlocks.TUNGSTEN_ORE.get(), ModItems.TUNGSTEN.get()));
         this.add(ModBlocks.DEEPSLATE_TUNGSTEN_ORE.get(),
                 (block) -> createOreDrop(ModBlocks.DEEPSLATE_TUNGSTEN_ORE.get(), ModItems.TUNGSTEN.get()));
+        
     }
 
     @Override
