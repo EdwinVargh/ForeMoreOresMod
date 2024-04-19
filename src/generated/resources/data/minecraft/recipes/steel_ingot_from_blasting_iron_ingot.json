@@ -3,7 +3,7 @@
   "category": "misc",
   "cookingtime": 150,
   "experience": 0.7,
-  "group": "steel_blasting",
+  "group": "aluminum_blasting",
   "ingredient": {
     "item": "minecraft:iron_ingot"
   },

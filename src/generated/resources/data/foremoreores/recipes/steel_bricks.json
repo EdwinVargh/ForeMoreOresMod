@@ -1,15 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "building",
-  "ingredients": [
-    {
-      "item": "foremoreores:steel_beam"
-    },
-    {
+  "key": {
+    "#": {
       "item": "minecraft:bricks"
+    },
+    "S": {
+      "item": "foremoreores:steel_ingot"
     }
+  },
+  "pattern": [
+    " S ",
+    "S#S",
+    " S "
   ],
   "result": {
     "item": "foremoreores:steel_bricks"
-  }
+  },
+  "show_notification": true
 }

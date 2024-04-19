@@ -3,10 +3,10 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "foremoreores:aluminum_ingot"
+      "item": "minecraft:bread"
     },
     {
-      "item": "minecraft:bread"
+      "item": "foremoreores:aluminum_ingot"
     }
   ],
   "result": {

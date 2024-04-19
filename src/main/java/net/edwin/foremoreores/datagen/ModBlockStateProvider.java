@@ -7,6 +7,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
+import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -38,28 +39,31 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.SULFUR_BLOCK);
         blockWithItem(ModBlocks.SULFUR_ORE);
         blockWithItem(ModBlocks.STEEL_BRICKS);
+        blockWithItem(ModBlocks.STEEL_DEEPSLATE_BRICKS);
+        blockWithItem(ModBlocks.STEEL_DEEPSLATE_TILES);
         blockWithItem(ModBlocks.STEEL_STONE_BRICKS);
+        blockWithItem(ModBlocks.STEEL_MUD_BRICKS);
         blockWithItem(ModBlocks.STEEL_NETHER_BRICKS);
         blockWithItem(ModBlocks.STEEL_RED_NETHER_BRICKS);
         blockWithItem(ModBlocks.STEEL_END_STONE_BRICKS);
-        blockWithItem(ModBlocks.STEEL_PURPUR);
+        blockWithItem(ModBlocks.STEEL_PURPUR_BLOCK);
         axisBlock(ModBlocks.STEEL_PURPUR_PILLAR, modLoc("block/steel_purpur_pillar"), modLoc("block/steel_purpur_pillar_top"));
+        super.simpleBlockItem(ModBlocks.STEEL_PURPUR_PILLAR.get(),cubeAll(ModBlocks.STEEL_PURPUR_PILLAR.get()));
         blockWithItem(ModBlocks.STEEL_PRISMARINE_BRICKS);
         blockWithItem(ModBlocks.STEEL_DARK_PRISMARINE);
+        axisBlock(ModBlocks.STEEL_CUT_SANDSTONE, modLoc("block/steel_cut_sandstone"), modLoc("block/sandstone_top"));
+        super.simpleBlockItem(ModBlocks.STEEL_CUT_SANDSTONE.get(),cubeAll(ModBlocks.STEEL_CUT_SANDSTONE.get()));
+        axisBlock(ModBlocks.STEEL_CUT_RED_SANDSTONE, modLoc("block/steel_cut_red_sandstone"), modLoc("block/red_sandstone_top"));
+        super.simpleBlockItem(ModBlocks.STEEL_CUT_RED_SANDSTONE.get(),cubeAll(ModBlocks.STEEL_CUT_RED_SANDSTONE.get()));
         blockWithItem(ModBlocks.STEEL_QUARTZ_BRICKS);
-        axisBlock(ModBlocks.STEEL_QUARTZ_PILLAR, modLoc("block/steel_quartz_pillar"), modLoc("block/steel_quartz_pillar_top"));
-        blockWithItem(ModBlocks.STEEL_DEEPSLATE_BRICKS);
-        blockWithItem(ModBlocks.STEEL_DEEPSLATE_TILES);
-        blockWithItem(ModBlocks.STEEL_MUD_BRICKS);
         blockWithItem(ModBlocks.STEEL_BLACKSTONE_BRICKS);
-        blockWithItem(ModBlocks.STEEL_CUT_SANDSTONE);
-        blockWithItem(ModBlocks.STEEL_CUT_RED_SANDSTONE);
+    }
+
+    private void axisBlock(RegistryObject<RotatedPillarBlock> blockRegistryObject, ResourceLocation side, ResourceLocation end) {
+        axisBlock(blockRegistryObject.get(), side, end);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));
-    }
-    private void axisBlock(RegistryObject<RotatedPillarBlock> blockRegistryObject, ResourceLocation side, ResourceLocation end) {
-        axisBlock(blockRegistryObject.get(), side, end);
     }
 }

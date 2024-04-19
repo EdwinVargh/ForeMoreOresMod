@@ -11,10 +11,11 @@
   },
   "pattern": [
     "   ",
-    " P ",
-    " S "
+    "PPP",
+    "SSS"
   ],
   "result": {
+    "count": 3,
     "item": "foremoreores:dynamite"
   },
   "show_notification": true

@@ -21,6 +21,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> LEAD_INGOT = ITEMS.register("lead_ingot",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> JADE = ITEMS.register("jade",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TUNGSTEN = ITEMS.register("tungsten",
@@ -56,6 +58,9 @@ public class ModItems {
             () -> new Baseball(new Item.Properties()));
     public static final RegistryObject<Item> DYNAMITE = ITEMS.register("dynamite",
             () -> new Dynamite(new Item.Properties()));
+
+    public static final RegistryObject<Item> FERTILIZER = ITEMS.register("fertilizer",
+            () -> new Fertilizer(new Item.Properties()));
     public static final RegistryObject<Item> JADE_HELMET = ITEMS.register("jade_helmet",
             () -> new ArmorItem(ModArmorMaterials.JADE, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> JADE_CHESTPLATE = ITEMS.register("jade_chestplate",

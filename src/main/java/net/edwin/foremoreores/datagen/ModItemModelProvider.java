@@ -42,6 +42,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.BAUXITE);
         simpleItem(ModItems.JADE);
         simpleItem(ModItems.LEAD_INGOT);
+        simpleItem(ModItems.STEEL_INGOT);
         simpleItem(ModItems.RAW_GALENA);
         simpleItem(ModItems.SULFUR);
         handheldItem(ModItems.JADE_SWORD);
@@ -80,7 +81,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SODA);
         simpleItem(ModItems.BASEBALL);
         simpleItem(ModItems.DYNAMITE);
-        simpleItem(ModItems.STEEL_INGOT);
+        simpleItem(ModItems.FERTILIZER);
     }
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),

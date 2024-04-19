@@ -3,10 +3,10 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "foremoreores:aluminum_ingot"
+      "item": "minecraft:cooked_chicken"
     },
     {
-      "item": "minecraft:cooked_chicken"
+      "item": "foremoreores:aluminum_ingot"
     }
   ],
   "result": {

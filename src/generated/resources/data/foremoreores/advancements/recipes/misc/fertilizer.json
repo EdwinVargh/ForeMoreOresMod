@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_steel": {
+    "has_sulfur": {
       "conditions": {
         "items": [
           {
             "items": [
-              "foremoreores:steel_ingot"
+              "foremoreores:sulfur"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "foremoreores:steel_deepslate_tiles"
+        "recipe": "foremoreores:fertilizer"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_steel",
+      "has_sulfur",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "foremoreores:steel_deepslate_tiles"
+      "foremoreores:fertilizer"
     ]
   },
   "sends_telemetry_event": false

@@ -35,22 +35,21 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.SULFUR_BLOCK.get());
         this.dropSelf(ModBlocks.STEEL_BEAM.get());
         this.dropSelf(ModBlocks.STEEL_BRICKS.get());
+        this.dropSelf(ModBlocks.STEEL_DEEPSLATE_BRICKS.get());
+        this.dropSelf(ModBlocks.STEEL_DEEPSLATE_TILES.get());
         this.dropSelf(ModBlocks.STEEL_STONE_BRICKS.get());
+        this.dropSelf(ModBlocks.STEEL_MUD_BRICKS.get());
         this.dropSelf(ModBlocks.STEEL_NETHER_BRICKS.get());
         this.dropSelf(ModBlocks.STEEL_RED_NETHER_BRICKS.get());
         this.dropSelf(ModBlocks.STEEL_END_STONE_BRICKS.get());
-        this.dropSelf(ModBlocks.STEEL_PURPUR.get());
+        this.dropSelf(ModBlocks.STEEL_PURPUR_BLOCK.get());
         this.dropSelf(ModBlocks.STEEL_PURPUR_PILLAR.get());
         this.dropSelf(ModBlocks.STEEL_PRISMARINE_BRICKS.get());
         this.dropSelf(ModBlocks.STEEL_DARK_PRISMARINE.get());
-        this.dropSelf(ModBlocks.STEEL_QUARTZ_BRICKS.get());
-        this.dropSelf(ModBlocks.STEEL_QUARTZ_PILLAR.get());
-        this.dropSelf(ModBlocks.STEEL_DEEPSLATE_BRICKS.get());
-        this.dropSelf(ModBlocks.STEEL_DEEPSLATE_TILES.get());
-        this.dropSelf(ModBlocks.STEEL_MUD_BRICKS.get());
-        this.dropSelf(ModBlocks.STEEL_BLACKSTONE_BRICKS.get());
         this.dropSelf(ModBlocks.STEEL_CUT_SANDSTONE.get());
         this.dropSelf(ModBlocks.STEEL_CUT_RED_SANDSTONE.get());
+        this.dropSelf(ModBlocks.STEEL_QUARTZ_BRICKS.get());
+        this.dropSelf(ModBlocks.STEEL_BLACKSTONE_BRICKS.get());
 
         this.add(ModBlocks.BAUXITE_ORE.get(),
                 (block) -> createOreDrop(ModBlocks.BAUXITE_ORE.get(), ModItems.BAUXITE.get()));
@@ -74,7 +73,6 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 (block) -> createOreDrop(ModBlocks.TUNGSTEN_ORE.get(), ModItems.TUNGSTEN.get()));
         this.add(ModBlocks.DEEPSLATE_TUNGSTEN_ORE.get(),
                 (block) -> createOreDrop(ModBlocks.DEEPSLATE_TUNGSTEN_ORE.get(), ModItems.TUNGSTEN.get()));
-        
     }
 
     @Override

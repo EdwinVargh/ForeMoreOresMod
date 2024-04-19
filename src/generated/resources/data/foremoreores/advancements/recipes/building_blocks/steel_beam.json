@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_steel": {
+    "has_steel-ingot": {
       "conditions": {
         "items": [
           {
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "foremoreores:steel_deepslate_tiles"
+        "recipe": "foremoreores:steel_beam"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_steel",
+      "has_steel-ingot",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "foremoreores:steel_deepslate_tiles"
+      "foremoreores:steel_beam"
     ]
   },
   "sends_telemetry_event": false

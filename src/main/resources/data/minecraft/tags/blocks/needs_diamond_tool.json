@@ -3,6 +3,21 @@
     "minecraft:netherite_block",
     "minecraft:respawn_anchor",
     "minecraft:ancient_debris",
-    "foremoreores:steel_beam"
+    "foremoreores:steel_bricks",
+    "foremoreores:steel_deepslate_bricks",
+    "foremoreores:steel_deepslate_tiles",
+    "foremoreores:steel_stone_bricks",
+    "foremoreores:steel_mud_bricks",
+    "foremoreores:steel_nether_bricks",
+    "foremoreores:steel_red_nether_bricks",
+    "foremoreores:steel_end_stone_bricks",
+    "foremoreores:steel_purpur_block",
+    "foremoreores:steel_purpur_pillar",
+    "foremoreores:steel_prismarine_bricks",
+    "foremoreores:steel_dark_prismarine",
+    "foremoreores:steel_cut_sandstone",
+    "foremoreores:steel_cut_red_sandstone",
+    "foremoreores:steel_quartz_bricks",
+    "foremoreores:steel_blackstone_bricks"
   ]
 }

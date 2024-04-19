@@ -3,10 +3,10 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "foremoreores:aluminum_ingot"
+      "item": "minecraft:chorus_fruit"
     },
     {
-      "item": "minecraft:chorus_fruit"
+      "item": "foremoreores:aluminum_ingot"
     }
   ],
   "result": {

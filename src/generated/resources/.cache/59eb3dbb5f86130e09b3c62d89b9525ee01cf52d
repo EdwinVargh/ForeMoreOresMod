@@ -1,4 +1,4 @@
-// 1.20.1	2024-04-02T14:33:21.101236	Loot Tables
+// 1.20.1	2024-04-18T17:31:17.945497	Loot Tables
 70cf34d3cd2f1ae023b139414b72db75b7d4a4cc data/foremoreores/loot_tables/blocks/aluminum_block.json
 227fa1e4011cadba9c91d6080d001d88204b6413 data/foremoreores/loot_tables/blocks/bauxite_block.json
 5752272a14c2f97a7eeb73f6de13608137f6387d data/foremoreores/loot_tables/blocks/bauxite_ore.json
@@ -29,7 +29,6 @@ eea6661223ff963a23772f8e880ada1b068d0495 data/foremoreores/loot_tables/blocks/st
 33b7b91303b9b6b65a9c858a69be8b360ec68d65 data/foremoreores/loot_tables/blocks/steel_purpur_block.json
 f99cea4dc744c3c1ac8a4bad6384d472f09e32d1 data/foremoreores/loot_tables/blocks/steel_purpur_pillar.json
 62bb7967d988bf75a2696618e1e331f59cf7fb1e data/foremoreores/loot_tables/blocks/steel_quartz_bricks.json
-63684da3958f172f418a59b9ae54637ba63c8499 data/foremoreores/loot_tables/blocks/steel_quartz_pillar.json
 9ef3064c9318ba67cb19fba0dabcee8ecf0539de data/foremoreores/loot_tables/blocks/steel_red_nether_bricks.json
 14b306c2e75a1beb2d4110f2fe079ff9dcb8194a data/foremoreores/loot_tables/blocks/steel_stone_bricks.json
 d735b9317fccbd7af2a382764339cef6eb08b450 data/foremoreores/loot_tables/blocks/sulfur_block.json

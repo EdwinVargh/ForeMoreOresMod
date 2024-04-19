@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_steel_beam": {
+    "has_steel": {
       "conditions": {
         "items": [
           {
             "items": [
-              "foremoreores:steel_beam"
+              "foremoreores:steel_ingot"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_steel_beam",
+      "has_steel",
       "has_the_recipe"
     ]
   ],
